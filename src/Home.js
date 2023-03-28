@@ -109,18 +109,18 @@ const Home = () => {
                                         Home
                                     </a>
                                 </li>
-                                <li className="nav-item ">
+                                <li className="nav-item">
                                     <a href="/about" className="nav-link js-scroll-trigger">
                                         About
                                     </a>
                                 </li>
                                 <li className="nav-item ">
-                                    <a href="/service" className="nav-link js-scroll-trigger">
+                                    <a href="/services" className="nav-link js-scroll-trigger">
                                         Services
                                     </a>
                                 </li>
                                 <li className="nav-item ">
-                                    <a href="/project" className="nav-link js-scroll-trigger">
+                                    <a href="/projects" className="nav-link js-scroll-trigger">
                                         Projects
                                     </a>
                                 </li>
@@ -894,21 +894,6 @@ const Home = () => {
             <a id="scroll-to-top" className="scroll-to-top js-scroll-trigger" href="#top-header">
                 <i className="fa fa-angle-up"></i>
             </a>
-
-            {/* 
-  Essential Scripts
-  =====================================*/}
-            {/* jQuery */}
-            <script src="plugins/jquery/jquery.min.js"></script>
-            {/* Bootstrap */}
-            <script src="plugins/bootstrap/bootstrap.min.js"></script>
-            {/* Slick Slider */}
-            <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-            {/* Google Map */}
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
-            <script src="plugins/google-map/gmap.js"></script>
-
-            <script src="js/script.js"></script>
 
         </div>
 

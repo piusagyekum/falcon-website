@@ -1,98 +1,11 @@
 import Footer from "./components/Footer";
 import ServicesSummary from "./components/ServicesSummary";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import Navbar from "./components/Navbar";
 
 const Services = () => {
   return (
     <div id="top-header">
-      {/* LOADER TEMPLATE */}
-      <div id="page-loader">
-        <div className="loader-icon fa fa-spin colored-border"></div>
-      </div>
-      {/* /LOADER TEMPLATE */}
-
-
-      {/* NAVBAR
-    ================================================= */}
-      <nav className="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
-        <div className="container">
-          <a className="navbar-brand" href="index-3.html">
-            <h3>Rappo</h3>
-          </a>
-          {/* Toggler */}
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="fa fa-bars"></span>
-          </button>
-
-          {/* Collapse */}
-          <div className="collapse navbar-collapse has-dropdown" id="navbarCollapse">
-            {/* Links */}
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#!" id="navbarWelcome" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Home
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarWelcome">
-                  <li><a className="dropdown-item" href="index.html">Home-1</a></li>
-                  <li><a className="dropdown-item" href="index-2.html">Home-2</a></li>
-                  <li><a className="dropdown-item" href="index-3.html">Home-3</a></li>
-                  <li><a className="dropdown-item" href="index-4.html">Home-4</a></li>
-
-                  <li className="dropdown dropdown-submenu dropright">
-                    <a className="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
-                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-                    <ul className="dropdown-menu" aria-labelledby="dropdown0301">
-                      <li><a className="dropdown-item" href="index.html">Submenu 01</a></li>
-                      <li><a className="dropdown-item" href="index.html">Submenu 02</a></li>
-                    </ul>
-                  </li>
-
-                  <li className="dropdown dropdown-submenu dropleft">
-                    <a className="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
-                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-                    <ul className="dropdown-menu" aria-labelledby="dropdown0301">
-                      <li><a className="dropdown-item" href="index.html">Submenu 01</a></li>
-                      <li><a className="dropdown-item" href="index.html">Submenu 02</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item ">
-                <a href="about.html" className="nav-link js-scroll-trigger">
-                  About
-                </a>
-              </li>
-              <li className="nav-item ">
-                <a href="service.html" className="nav-link js-scroll-trigger">
-                  Services
-                </a>
-              </li>
-              <li className="nav-item ">
-                <a href="pricing.html" className="nav-link js-scroll-trigger">
-                  Pricing
-                </a>
-              </li>
-
-              <li className="nav-item ">
-                <a href="project.html" className="nav-link js-scroll-trigger">
-                  Projects
-                </a>
-              </li>
-
-              <li className="nav-item ">
-                <a href="contact.html" className="nav-link">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div> {/* / .navbar-collapse */}
-        </div> {/* / .container */}
-      </nav>
 
       {/* HERO
     ================================================== */}
