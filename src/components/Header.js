@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+
 const Header = () => {
     return (
         <>
@@ -12,9 +15,9 @@ const Header = () => {
     ================================================= */}
             <nav className="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
                 <div className="container">
-                    <a className="navbar-brand" href="/">
+                    <Link className="navbar-brand" to="/">
                         <img src="images/invertedLogo.png" alt="logo" height="150px" />
-                    </a>
+                    </Link>
                     {/* Toggler */}
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,32 +29,32 @@ const Header = () => {
                         {/* Links */}
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item dropdown">
-                                <a className="nav-link " href="/" id="navbarWelcome" role="button"
+                                <Link className="nav-link " to="/" id="navbarWelcome" role="button"
                                     aria-haspopup="true" aria-expanded="false">
                                     Home
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item ">
-                                <a href="/about" className="nav-link js-scroll-trigger">
+                                <Link to="/about" className="nav-link js-scroll-trigger">
                                     About
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item ">
-                                <a href="/services" className="nav-link js-scroll-trigger">
+                                <Link to="/services" className="nav-link js-scroll-trigger">
                                     Services
-                                </a>
+                                </Link>
                             </li>
 
                             <li className="nav-item ">
-                                <a href="/projects" className="nav-link js-scroll-trigger">
+                                <Link to="/projects" className="nav-link js-scroll-trigger">
                                     Projects
-                                </a>
+                                </Link>
                             </li>
 
                             <li className="nav-item ">
-                                <a href="/contact" className="nav-link">
+                                <Link to="/contact" className="nav-link">
                                     Contact
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div> {/* / .navbar-collapse */}

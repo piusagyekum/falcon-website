@@ -23,16 +23,14 @@ const Home = () => {
                         <div className="col-lg-6 col-md-6">
                             <div className="top-bar-left text-white text-md-left text-sm-center">
                                 <i className="fas fa-map-marker-alt"></i>
-                                <span className="ml-2">4 Goldfield Rd. Honolulu, HI 96815</span>
+                                <span className="ml-2">E.D Sowah Avenue GD-162-6456</span>
                             </div>
                         </div>
 
                         <div className="col-lg-4 ml-lg-auto col-md-6">
                             <ul className="list-inline list-unstyled header-socials text-md-right text-sm-center">
-                                <li className="list-inline-item"><a href="#!"> <i className="fab fa-facebook-f"></i></a></li>
-                                <li className="list-inline-item"><a href="#!"> <i className="fab fa-twitter"></i></a></li>
-                                <li className="list-inline-item"><a href="#!"> <i className="fab fa-pinterest-p"></i></a></li>
-                                <li className="list-inline-item"><a href="#!"> <i className="fab fa-linkedin"></i></a></li>
+                                <li className="list-inline-item"><a href="https://www.instagram.com/falcontechgh/"> <i className="fab fa-instagram"></i></a></li>
+                                <li className="list-inline-item"><a href="https://www.linkedin.com/company/93126965/admin/"> <i className="fab fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -108,31 +106,31 @@ const Home = () => {
                             {/* Links */}
                             <ul className="navbar-nav ">
                                 <li className="nav-item dropdown">
-                                    <a className="nav-link" href="/" id="navbarWelcome" role="button"
+                                    <Link className="nav-link" to="/" id="navbarWelcome" role="button"
                                         aria-haspopup="true" aria-expanded="false">
                                         Home
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/about" className="nav-link js-scroll-trigger">
+                                    <Link to="/about" className="nav-link js-scroll-trigger">
                                         About
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a href="/services" className="nav-link js-scroll-trigger">
+                                    <Link to="/services" className="nav-link js-scroll-trigger">
                                         Services
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a href="/projects" className="nav-link js-scroll-trigger">
+                                    <Link to="/projects" className="nav-link js-scroll-trigger">
                                         Projects
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li className="nav-item ">
-                                    <a href="/contact" className="nav-link">
+                                    <Link to="/contact" className="nav-link">
                                         Contact
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -162,9 +160,9 @@ const Home = () => {
 
                                 {/* Button */}
                                 <p className="mb-0">
-                                    <a href="/contact" target="_blank" className="btn btn-primary btn-circled">
+                                    <Link to="/contact" target="_blank" className="btn btn-primary btn-circled">
                                         Want to start a project
-                                    </a>
+                                    </Link>
                                 </p>
                             </div>
                         </div>
@@ -316,7 +314,7 @@ const Home = () => {
 
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <p className="pl-3">Want to know more about this? <a href="#!">Contact us</a></p>
+                                    <p className="pl-3">Want to know more about this? <Link to="/contact">Contact us</Link></p>
                                 </div>
                             </div>
                         </div>
@@ -372,71 +370,7 @@ const Home = () => {
             </section>
 
 
-            <section className="section" id="services-2">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-md-8 col-lg-6 text-center">
-                            <div className="section-heading">
-                                {/* Heading */}
-                                <h2 className="section-title mb-2 text-white">
-                                    Web Services
-                                </h2>
-
-                                {/* Subheading */}
-                                <p className="mb-5 text-white">
-                                    Rappo can be used to create anything from a small marketing page to a sophisticated website.
-                                </p>
-                            </div>
-                        </div>
-                    </div> {/* / .row */}
-
-                    <div className="row">
-                        <div className="col-lg-4 col-sm-6 col-md-6 mb-30">
-                            <div className="web-service-block">
-                                <i className="ti-light-bulb"></i>
-                                <h3>Creative Design</h3>
-                                <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-sm-6 col-md-6 mb-30">
-                            <div className="web-service-block">
-                                <i className="ti-desktop"></i>
-                                <h3>Web Development</h3>
-                                <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-sm-6 col-md-6 mb-30">
-                            <div className="web-service-block">
-                                <i className="ti-announcement"></i>
-                                <h3>Digital Marketing</h3>
-                                <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-sm-6 col-md-6 ">
-                            <div className="web-service-block">
-                                <i className="ti-layers-alt"></i>
-                                <h3>Graphic Design</h3>
-                                <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-sm-6 col-md-6 ">
-                            <div className="web-service-block">
-                                <i className="ti-mobile"></i>
-                                <h3>App Development</h3>
-                                <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-sm-6 col-md-6 ">
-                            <div className="web-service-block">
-                                <i className="ti-settings"></i>
-                                <h3>Wordpress Installation</h3>
-                                <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <ServicesSummary/>
            
 
             <section className="section" id="projects-wrap">
@@ -445,7 +379,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="section-heading">
-                                <h1 className="text-white">We are trying to deliver 100% quality product and success their business to achieve ultimate goal.</h1>
+                                <h1 className="text-white">We deliver 100% quality product and success to businesses to achieve their ultimate goal.</h1>
                             </div>
                         </div>
                         <div className="col-lg-6">

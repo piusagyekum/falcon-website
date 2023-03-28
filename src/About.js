@@ -31,43 +31,41 @@ const About = () => {
               <div className="section-heading">
                 {/* Heading */}
                 <h2 className="section-title">
-                  Our Working process
+                  Why Us?
                 </h2>
 
                 {/* Subheading */}
-                <p>
-                  Rappo can be used to create anything from a small marketing page to a sophisticated website.
-                </p>
+                <p>At our consultancy, we're proud to have a team of exceptional software engineers who possess the expertise and skills necessary to take your business to new heights. Our engineers are handpicked for their proven track record of success and extensive knowledge of the latest technologies. They're fully devoted to driving your business forward and delivering outstanding results.                </p>
 
               </div>
             </div>
           </div> {/* / .row */}
 
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-sm-6 col-md-6">
+            <div className="col-lg-4 col-sm-2 col-md-6">
               <div className="process-block">
                 <img src="images/process/process-1.jpg" alt="" className="img-fluid" />
 
-                <h3>Project Research</h3>
-                <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                <h3>Secure Solutions</h3>
+                <p>Our priority is protecting your business and ensuring its continuity. We utilize advanced security technologies to mitigate risks and safeguard your assets. Our team of experts provides customized solutions that are tailored to your specific needs, ensuring maximum protection and peace of mind. Trust us to secure your business, so you can focus on what matters most - growing and expanding it.</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="process-block">
                 <img src="images/process/process-2.jpg" alt="" className="img-fluid" />
 
-                <h3>Project demostration</h3>
-                <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                <h3>Empower your Brand</h3>
+                <p></p>We help brands empower themselves by creating a compelling purpose that resonates with people's lives. Using our unique creative approach and innovative technologies, we assist brands in communicating, converting, and achieving their global objectives. Our solutions are sustainable and measurable, ensuring long-term success.
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-md-6">
+            {/* <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="process-block">
                 <img src="images/process/process-3.jpg" alt="" className="img-fluid" />
 
                 <h3>Development & delivery</h3>
                 <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -114,7 +112,7 @@ const About = () => {
                 <img src="images/process/process-1.jpg" alt="" className="img-fluid" />
 
                 <h3>Ben Tagoe</h3>
-                <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                <p>CEO</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
@@ -122,15 +120,15 @@ const About = () => {
                 <img src="images/process/process-2.jpg" alt="" className="img-fluid" />
 
                 <h3>James Amo</h3>
-                <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                <p>Backend Developer and Team Lead</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="process-block">
                 <img src="images/process/process-3.jpg" alt="" className="img-fluid" />
 
-                <h3>Development & delivery</h3>
-                <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                <h3>Benjamin Mensah</h3>
+                <p>Project Manager</p>
               </div>
             </div>
           </div>
