@@ -13,7 +13,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
                 <div className="container">
                     <a className="navbar-brand" href="/">
-                        <h3>Rappo</h3>
+                        <img src="images/invertedLogo.png" alt="logo" height="150px" />
                     </a>
                     {/* Toggler */}
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"

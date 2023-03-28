@@ -45,7 +45,7 @@ const Projects = () => {
                 <div className="overlay-content-block">
                   <h4>Probiz portfolio template</h4>
                   <p>Web Development</p>
-                  <a href="single-project.html"><i className="fa fa-link"></i></a>
+                  <a href="#"><i className="fa fa-link"></i></a>
                 </div>
               </div>
             </div>
@@ -114,128 +114,7 @@ const Projects = () => {
         </div>
       </section>
 
-      <footer className="section " id="footer">
-        <div className="overlay footer-overlay"></div>
-        {/*Content */}
-        <div className="container">
-          <div className="row justify-content-start">
-            <div className="col-lg-4 col-sm-12">
-              <div className="footer-widget">
-                {/* Brand */}
-                <a href="index.html" className="footer-brand text-white">
-                  Rappo
-                </a>
-                <p>Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum
-                  dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-
-            <div className="col-lg-3 ml-lg-auto col-sm-12">
-              <div className="footer-widget">
-                <h3>Account</h3>
-                {/* Links */}
-                <ul className="footer-links ">
-                  <li>
-                    <a href="#!">
-                      Terms and conditions
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#!">
-                      Privacy policy
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#!">
-                      Affiliate services
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#!">
-                      Help and support
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#!">
-                      Frequently Asked Question
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-
-            <div className="col-lg-2 col-sm-6">
-              <div className="footer-widget">
-                <h3>About</h3>
-                {/* Links */}
-                <ul className="footer-links">
-                  <li>
-                    <a href="about.html">
-                      About Us
-                    </a>
-                  </li>
-                  <li>
-                    <a href="service.html">
-                      Services
-                    </a>
-                  </li>
-                  <li>
-                    <a href="pricing.html">
-                      Pricing
-                    </a>
-                  </li>
-                  <li>
-                    <a href="project.html">
-                      Recent Projects
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="contact.html">
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-2 col-sm-6">
-              <div className="footer-widget">
-                <h3>Socials</h3>
-                {/* Links */}
-                <ul className="list-unstyled footer-links">
-                  <li><a href="https://www.facebook.com/themefisher"><i className="fab fa-facebook-f"></i>Facebook</a></li>
-                  <li>
-                    <a href="https://www.twitter.com/themefisher"><i className="fab fa-twitter"></i>Twitter
-                    </a></li>
-                  <li><a href="https://www.pinterest.com/themefisher/"><i className="fab fa-pinterest-p"></i>Pinterest
-                  </a></li>
-                  <li><a href="https://themefisher.com/"><i className="fab fa-linkedin"></i>linkedin
-                  </a></li>
-                  <li><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA"><i className="fab fa-youtube"></i>YouTube
-                  </a></li>
-                </ul>
-              </div>
-            </div>
-          </div> {/* / .row */}
-
-
-          <div className="row text-right pt-5">
-            <div className="col-lg-12">
-              <div className="overflow-hidden">
-                {/* Copyright */}
-                <p className="footer-copy">
-                  Copyright &copy; <script>var CurrentYear = new Date().getFullYear()
-                    document.write(CurrentYear)
-                  </script>. Designed &amp; Developed by <a className="current-year" href="https://themefisher.com/">Themefisher</a>
-                </p>
-              </div>
-            </div>
-          </div> {/* / .row */}
-        </div> {/* / .container */}
-      </footer>
-
+     
 
       {/*  Page Scroll to Top  */}
 
@@ -243,21 +122,7 @@ const Projects = () => {
         <i className="fa fa-angle-up"></i>
       </a>
 
-      {/* 
-  Essential Scripts
-  =====================================*/}
-      {/* jQuery */}
-      <script src="plugins/jquery/jquery.min.js"></script>
-      {/* Bootstrap */}
-      <script src="plugins/bootstrap/bootstrap.min.js"></script>
-      {/* Slick Slider */}
-      <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-      {/* Google Map */}
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
-      <script src="plugins/google-map/gmap.js"></script>
-
-      <script src="js/script.js"></script>
-
+     
     </div>
 
   );

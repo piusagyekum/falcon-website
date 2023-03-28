@@ -162,7 +162,7 @@ const Services = () => {
             <div className="col-lg-4 col-sm-12">
               <div className="footer-widget">
                 {/* Brand */}
-                <a href="index.html" className="footer-brand text-white">
+                <a href="/" className="footer-brand text-white">
                   Rappo
                 </a>
                 <p>Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum
@@ -211,28 +211,23 @@ const Services = () => {
                 {/* Links */}
                 <ul className="footer-links">
                   <li>
-                    <a href="about.html">
+                    <a href="/about">
                       About Us
                     </a>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <a href="/services">
                       Services
                     </a>
                   </li>
                   <li>
-                    <a href="pricing.html">
-                      Pricing
-                    </a>
-                  </li>
-                  <li>
-                    <a href="project.html">
+                    <a href="/projects">
                       Recent Projects
                     </a>
                   </li>
 
                   <li>
-                    <a href="contact.html">
+                    <a href="/contact">
                       Contact
                     </a>
                   </li>

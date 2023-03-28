@@ -4,7 +4,7 @@ const Navbar = () => {
     return ( 
         <nav class="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
   <div class="container">
-    <a class="navbar-brand" href="index-3.html">
+    <a class="navbar-brand" href="/">
       <h3>Rappo</h3>
     </a>
     {/* Toggler */}

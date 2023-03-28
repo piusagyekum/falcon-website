@@ -42,12 +42,16 @@ const Home = () => {
             <div className="logo-bar d-none d-md-block d-lg-block bg-light">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-2">
+                        <div className="col-lg-4">
                             <div className="logo d-none d-lg-block">
                                 {/* Brand */}
-                                <a className="navbar-brand js-scroll-trigger" href="index.html">
+                                {/* <a className="navbar-brand js-scroll-trigger" href="index.html">
                                     <h2 className="mb-0">Rappo</h2>
-                                </a>
+                                </a> */}
+
+                                <img src="images/logoOnly.png" alt="logo" height="60px"/>
+                                <h3 className="font-weight-500 d-inline-block">Falcon Technologies</h3>
+
                             </div>
                         </div>
 
@@ -57,8 +61,8 @@ const Home = () => {
                                     <i className="ti-mobile"></i>
                                 </div>
                                 <div className="info-block">
-                                    <h5 className="font-weight-500">+7809346657</h5>
-                                    <p>Call Free</p>
+                                    <h5 className="font-weight-500">+233(0)263012532</h5>
+                                    <p>Call</p>
                                 </div>
                             </div>
 
@@ -67,7 +71,7 @@ const Home = () => {
                                     <i className="ti-email"></i>
                                 </div>
                                 <div className="info-block">
-                                    <h5 className="font-weight-500">info@example.com</h5>
+                                    <h5 className="font-weight-500">btfalcontechnologies@gmail.com</h5>
                                     <p>Email Us</p>
                                 </div>
                             </div>
@@ -76,8 +80,8 @@ const Home = () => {
                                     <i className="ti-time"></i>
                                 </div>
                                 <div className="info-block">
-                                    <h5 className="font-weight-500">Mon-Sat 9:00-12.00 </h5>
-                                    <p>Sunday Closed</p>
+                                    <h5 className="font-weight-500">Mon-Fri 9:00-17.00 </h5>
+                                    <p>Open</p>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +108,7 @@ const Home = () => {
                             {/* Links */}
                             <ul className="navbar-nav ">
                                 <li className="nav-item dropdown">
-                                    <a className="nav-link" href="#!" id="navbarWelcome" role="button"
+                                    <a className="nav-link" href="/" id="navbarWelcome" role="button"
                                         aria-haspopup="true" aria-expanded="false">
                                         Home
                                     </a>
@@ -433,83 +437,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="section" id="pricing">
-                {/* Content */}
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-md-8 col-lg-6 text-center">
-                            <div className="section-heading">
-                                {/* Heading */}
-                                <h2 className="section-title">
-                                    Affordable Price Plan
-                                </h2>
-
-                                {/* Subheading */}
-                                <p>
-                                    Rappo can be used to create anything from a small marketing page to a sophisticated website.
-                                </p>
-                            </div>
-                        </div>
-                    </div> {/* / .row */}
-
-                    <div className="row justify-content-center">
-                        <div className="col-lg-4 col-sm-6 col-md-6">
-                            <div className="pricing-box">
-                                <h3>Stnadard</h3>
-                                <div className="price-block">
-                                    <h2><small>$</small>13<span>monthly</span></h2>
-                                </div>
-
-                                <ul className="price-features list-unstyled">
-                                    <li>Unlimited Domain</li>
-                                    <li>Unmetered Bandwidth</li>
-                                    <li>Free SSL Certificate </li>
-                                    <li>20 Email Subscription</li>
-                                    <li>SSD Hosting</li>
-                                </ul>
-
-                                <a href="#!" className="btn btn-outline-dark btn-circled">Purchase Now</a>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-sm-6 col-md-6">
-                            <div className="pricing-box">
-                                <h3>Premium</h3>
-                                <div className="price-block">
-                                    <h2><small>$</small>23<span>monthly</span></h2>
-                                </div>
-
-                                <ul className="price-features list-unstyled">
-                                    <li>Unlimited Domain</li>
-                                    <li>Unmetered Bandwidth</li>
-                                    <li>Free SSL Certificate </li>
-                                    <li>20 Email Subscription</li>
-                                    <li>SSD Hosting</li>
-                                </ul>
-
-                                <a href="#!" className="btn btn-primary btn-circled">Purchase Now</a>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-sm-8 col-md-6">
-                            <div className="pricing-box ">
-                                <h3>Business</h3>
-                                <div className="price-block">
-                                    <h2><small>$</small>33<span>monthly</span></h2>
-                                </div>
-
-                                <ul className="price-features list-unstyled">
-                                    <li>Unlimited Domain</li>
-                                    <li>Unmetered Bandwidth</li>
-                                    <li>Free SSL Certificate </li>
-                                    <li>20 Email Subscription</li>
-                                    <li>SSD Hosting</li>
-                                </ul>
-
-                                <a href="#!" className="btn btn-outline-dark btn-circled">Purchase Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+           
 
             <section className="section" id="projects-wrap">
                 <div className="overlay"></div>
@@ -766,127 +694,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <footer className="section " id="footer">
-                <div className="overlay footer-overlay"></div>
-                {/*Content */}
-                <div className="container">
-                    <div className="row justify-content-start">
-                        <div className="col-lg-4 col-sm-12">
-                            <div className="footer-widget">
-                                {/* Brand */}
-                                <a href="index.html" className="footer-brand text-white">
-                                    Rappo
-                                </a>
-                                <p>Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum
-                                    dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 ml-lg-auto col-sm-12">
-                            <div className="footer-widget">
-                                <h3>Account</h3>
-                                {/* Links */}
-                                <ul className="footer-links ">
-                                    <li>
-                                        <a href="#!">
-                                            Terms and conditions
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#!">
-                                            Privacy policy
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#!">
-                                            Affiliate services
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#!">
-                                            Help and support
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#!">
-                                            Frequently Asked Question
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-
-                        <div className="col-lg-2 col-sm-6">
-                            <div className="footer-widget">
-                                <h3>About</h3>
-                                {/* Links */}
-                                <ul className="footer-links">
-                                    <li>
-                                        <a href="about.html">
-                                            About Us
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="service.html">
-                                            Services
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="pricing.html">
-                                            Pricing
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="project.html">
-                                            Recent Projects
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="contact.html">
-                                            Contact
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-2 col-sm-6">
-                            <div className="footer-widget">
-                                <h3>Socials</h3>
-                                {/* Links */}
-                                <ul className="list-unstyled footer-links">
-                                    <li><a href="https://www.facebook.com/themefisher"><i className="fab fa-facebook-f"></i>Facebook</a></li>
-                                    <li>
-                                        <a href="https://www.twitter.com/themefisher"><i className="fab fa-twitter"></i>Twitter
-                                        </a></li>
-                                    <li><a href="https://www.pinterest.com/themefisher/"><i className="fab fa-pinterest-p"></i>Pinterest
-                                    </a></li>
-                                    <li><a href="https://themefisher.com/"><i className="fab fa-linkedin"></i>linkedin
-                                    </a></li>
-                                    <li><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA"><i className="fab fa-youtube"></i>YouTube
-                                    </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> {/* / .row */}
-
-
-                    <div className="row text-right pt-5">
-                        <div className="col-lg-12">
-                            <div className="overflow-hidden">
-                                {/* Copyright */}
-                                <p className="footer-copy">
-                                    Copyright &copy; <script>var CurrentYear = new Date().getFullYear()
-                                        document.write(CurrentYear)
-                                    </script>. Designed &amp; Developed by <a className="current-year" href="https://themefisher.com/">Themefisher</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div> {/* / .row */}
-                </div> {/* / .container */}
-            </footer>
+         
 
 
             {/*  Page Scroll to Top  */}

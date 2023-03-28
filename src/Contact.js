@@ -32,21 +32,21 @@ const Contact = () => {
               <div className="contact-info-block text-center">
                 <i className="pe-7s-map-marker"></i>
                 <h4>Address</h4>
-                <p className="lead">153 Williamson Plaza, 09514</p>
+                <p className="lead">E.D Sowah Avenue GD-162-6456</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="contact-info-block text-center">
                 <i className="pe-7s-mail"></i>
                 <h4>Email</h4>
-                <p className="lead">supportdb@dthememascot.com</p>
+                <p className="lead">btfalcontechnologies@gmail.com</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="contact-info-block text-center">
                 <i className="pe-7s-phone"></i>
                 <h4>Phone Number</h4>
-                <p className="lead">+23-68017684</p>
+                <p className="lead">+233 (0) 263012532</p>
               </div>
             </div>
           </div>
@@ -172,133 +172,13 @@ const Contact = () => {
 
             <div className="col-lg-6 col-md-6">
               {/* START MAP */}
-              <div id="map" ></div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15881.625400775325!2d-0.1498856!3d5.6542124!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d79a7634f5f%3A0x96f2b3498ca794d2!2sCYBERTEQ%20Falcon%20Limited!5e0!3m2!1sen!2sgh!4v1680009150550!5m2!1sen!2sgh" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               {/* END MAP */}
             </div>
           </div>
         </div>
       </section>
-      <footer className="section " id="footer">
-        <div className="overlay footer-overlay"></div>
-        {/*Content */}
-        <div className="container">
-          <div className="row justify-content-start">
-            <div className="col-lg-4 col-sm-12">
-              <div className="footer-widget">
-                {/* Brand */}
-                <a href="index.html" className="footer-brand text-white">
-                  Rappo
-                </a>
-                <p>Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum
-                  dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-
-            <div className="col-lg-3 ml-lg-auto col-sm-12">
-              <div className="footer-widget">
-                <h3>Account</h3>
-                {/* Links */}
-                <ul className="footer-links ">
-                  <li>
-                    <a href="#!">
-                      Terms and conditions
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#!">
-                      Privacy policy
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#!">
-                      Affiliate services
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#!">
-                      Help and support
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#!">
-                      Frequently Asked Question
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-
-            <div className="col-lg-2 col-sm-6">
-              <div className="footer-widget">
-                <h3>About</h3>
-                {/* Links */}
-                <ul className="footer-links">
-                  <li>
-                    <a href="about.html">
-                      About Us
-                    </a>
-                  </li>
-                  <li>
-                    <a href="service.html">
-                      Services
-                    </a>
-                  </li>
-                  <li>
-                    <a href="pricing.html">
-                      Pricing
-                    </a>
-                  </li>
-                  <li>
-                    <a href="project.html">
-                      Recent Projects
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="contact.html">
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-2 col-sm-6">
-              <div className="footer-widget">
-                <h3>Socials</h3>
-                {/* Links */}
-                <ul className="list-unstyled footer-links">
-                  <li><a href="https://www.facebook.com/themefisher"><i className="fab fa-facebook-f"></i>Facebook</a></li>
-                  <li>
-                    <a href="https://www.twitter.com/themefisher"><i className="fab fa-twitter"></i>Twitter
-                    </a></li>
-                  <li><a href="https://www.pinterest.com/themefisher/"><i className="fab fa-pinterest-p"></i>Pinterest
-                  </a></li>
-                  <li><a href="https://themefisher.com/"><i className="fab fa-linkedin"></i>linkedin
-                  </a></li>
-                  <li><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA"><i className="fab fa-youtube"></i>YouTube
-                  </a></li>
-                </ul>
-              </div>
-            </div>
-          </div> {/* / .row */}
-
-
-          <div className="row text-right pt-5">
-            <div className="col-lg-12">
-              <div className="overflow-hidden">
-                {/* Copyright */}
-                <p className="footer-copy">
-                  Copyright &copy; <script>var CurrentYear = new Date().getFullYear()
-                    document.write(CurrentYear)
-                  </script>. Designed &amp; Developed by <a className="current-year" href="https://themefisher.com/">Themefisher</a>
-                </p>
-              </div>
-            </div>
-          </div> {/* / .row */}
-        </div> {/* / .container */}
-      </footer>
+   
 
 
       {/*  Page Scroll to Top  */}
@@ -307,20 +187,7 @@ const Contact = () => {
         <i className="fa fa-angle-up"></i>
       </a>
 
-      {/* 
-  Essential Scripts
-  =====================================*/}
-      {/* jQuery */}
-      <script src="plugins/jquery/jquery.min.js"></script>
-      {/* Bootstrap */}
-      <script src="plugins/bootstrap/bootstrap.min.js"></script>
-      {/* Slick Slider */}
-      <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-      {/* Google Map */}
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
-      <script src="plugins/google-map/gmap.js"></script>
-
-      <script src="js/script.js"></script>
+      
 
     </div>
   );
