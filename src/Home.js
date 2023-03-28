@@ -1,5 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import { Link } from 'react-router-dom';
+import Footer from './components/Footer';
+import ServicesSummary from './components/ServicesSummary';
+
+
 
 const Home = () => {
     return ( 
@@ -18,16 +23,14 @@ const Home = () => {
       <div class="col-lg-6 col-md-6">
         <div class="top-bar-left text-white text-md-left text-sm-center">
           <i class="fas fa-map-marker-alt"></i>
-          <span class="ml-2">4 Goldfield Rd. Honolulu, HI 96815</span>
+          <span class="ml-2">E.D Sowah Avenue GD-162-6456</span>
         </div>
       </div>
 
       <div class="col-lg-4 ml-lg-auto col-md-6">
         <ul class="list-inline list-unstyled header-socials text-md-right text-sm-center">
-          <li class="list-inline-item"><a href="#!"> <i class="fab fa-facebook-f"></i></a></li>
-          <li class="list-inline-item"><a href="#!"> <i class="fab fa-twitter"></i></a></li>
-          <li class="list-inline-item"><a href="#!"> <i class="fab fa-pinterest-p"></i></a></li>
-          <li class="list-inline-item"><a href="#!"> <i class="fab fa-linkedin"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.instagram.com/falcontechgh/"> <i class="fab fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.linkedin.com/company/93126965/admin/"> <i class="fab fa-linkedin"></i></a></li>
         </ul>
       </div>
     </div>
@@ -40,9 +43,11 @@ const Home = () => {
       <div class="col-lg-2">
         <div class="logo d-none d-lg-block">
           {/* Brand */}
-          <a class="navbar-brand js-scroll-trigger" href="index.html">
-            <h2 class="mb-0">Rappo</h2>
-          </a>
+          <Link class="navbar-brand js-scroll-trigger" to="index.html">
+            {/* <h2 class="mb-0">Rappo</h2> */}
+            <img src="images/transLogo.png" alt="" width="40px"/>
+            <h4 style={{display:'inline-block'}}>alcon Technologies</h4>
+          </Link>
         </div>
       </div>
 
@@ -52,7 +57,7 @@ const Home = () => {
             <i class="ti-mobile"></i>
           </div>
           <div class="info-block">
-            <h5 class="font-weight-500">+7809346657</h5>
+            <h5 class="font-weight-500">+233 (0) 263012532</h5>
             <p>Call Free</p>
           </div>
         </div>
@@ -62,7 +67,7 @@ const Home = () => {
             <i class="ti-email"></i>
           </div>
           <div class="info-block">
-            <h5 class="font-weight-500">info@example.com</h5>
+            <h5 class="font-weight-500">btfalcontechnologies@gmail.com</h5>
             <p>Email Us</p>
           </div>
         </div>
@@ -71,8 +76,8 @@ const Home = () => {
             <i class="ti-time"></i>
           </div>
           <div class="info-block">
-            <h5 class="font-weight-500">Mon-Sat 9:00-12.00 </h5>
-            <p>Sunday Closed</p>
+            <h5 class="font-weight-500">Mon-Fri 9:00-17.00 </h5>
+            
           </div>
         </div>
       </div>
@@ -100,42 +105,38 @@ const Home = () => {
         {/* Links */}
         <ul class="navbar-nav ">
           <li class="nav-item dropdown">
-            <a class="nav-link" href="#!" id="navbarWelcome" role="button" 
+            <Link to="/" class="nav-link"  id="navbarWelcome" role="button" 
               aria-haspopup="true" aria-expanded="false">
               Home
-            </a>
+            </Link>
           </li>
           <li class="nav-item ">
-            <a href="about.html" class="nav-link js-scroll-trigger">
+            <Link to="/About" class="nav-link js-scroll-trigger">
               About
-            </a>
+            </Link>
           </li>
           <li class="nav-item ">
-            <a href="service.html" class="nav-link js-scroll-trigger">
+            <Link to="/Services" class="nav-link js-scroll-trigger">
               Services
-            </a>
+            </Link>
           </li>
-          <li class="nav-item ">
-            <a href="pricing.html" class="nav-link js-scroll-trigger">
-              Pricing
-            </a>
-          </li>
+         
 
           <li class="nav-item ">
-            <a href="project.html" class="nav-link js-scroll-trigger">
+            <Link to="/Projects" class="nav-link js-scroll-trigger">
               Projects
-            </a>
+            </Link>
           </li>
 
           <li class="nav-item ">
-            <a href="contact.html" class="nav-link">
+            <Link to="/Contact" class="nav-link">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
 
         <ul class="ml-lg-auto list-unstyled m-0">
-          <li><a href="contact.html" class="btn btn-white btn-circled">Get a quote</a></li>
+          <li><Link to="/Contact" class="btn btn-white btn-circled">Get a quote</Link></li>
         </ul>
       </div> {/* / .navbar-collapse */}
     </nav>
@@ -159,7 +160,7 @@ const Home = () => {
 
                         {/* Subheading */}
                         <p class="lead mb-4">
-                           Rappo is set of landing and support pages aimed at helping companies promote new products and business launches.
+                           Unleashing the power of code to transform your vision into reality. Our innovative solutions are engineered to revolutionize your business. From idea to implementation, we make your digital dreams a reality. Let us help you take your business to the next level with our expertise and innovation!
                         </p>
 
                         {/* Button */}
@@ -318,7 +319,7 @@ const Home = () => {
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <p class="pl-3">Want to know more about this? <a href="#!">Contact us</a></p>
+                            <p class="pl-3">Want to know more about this? <Link to="/Contact">Contact us</Link></p>
                         </div>
                     </div>
                 </div>
@@ -373,151 +374,10 @@ const Home = () => {
         </div>
     </section>
 
+<ServicesSummary/>
 
-<section class="section" id="services-2">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        {/* Heading */}
-                        <h2 class="section-title mb-2 text-white">
-                            Web Services
-                        </h2>
 
-                        {/* Subheading */}
-                        <p class="mb-5 text-white">
-                            Rappo can be used to create anything from a small marketing page to a sophisticated website.
-                        </p>
-                    </div>
-                </div>
-            </div> {/* / .row */}
-
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
-                    <div class="web-service-block">
-                        <i class="ti-light-bulb"></i>
-                        <h3>Creative Design</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
-                    <div class="web-service-block">
-                        <i class="ti-desktop"></i>
-                        <h3>Web Development</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
-                    <div class="web-service-block">
-                        <i class="ti-announcement"></i>
-                        <h3>Digital Marketing</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6 col-md-6 ">
-                    <div class="web-service-block">
-                        <i class="ti-layers-alt"></i>
-                        <h3>Graphic Design</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 ">
-                    <div class="web-service-block">
-                        <i class="ti-mobile"></i>
-                        <h3>App Development</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 ">
-                    <div class="web-service-block">
-                        <i class="ti-settings"></i>
-                        <h3>Wordpress Installation</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<section class="section" id="pricing">
-        {/* Content */}
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        {/* Heading */}
-                        <h2 class="section-title">
-                            Affordable Price Plan
-                        </h2>
-
-                        {/* Subheading */}
-                        <p>
-                            Rappo can be used to create anything from a small marketing page to a sophisticated website.
-                        </p>
-                    </div>
-                </div>
-            </div> {/* / .row */}
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="pricing-box">
-                       <h3>Stnadard</h3>
-                        <div class="price-block">
-                             <h2><small>$</small>13<span>monthly</span></h2>
-                        </div>
-
-                        <ul class="price-features list-unstyled">
-                            <li>Unlimited Domain</li>
-                            <li>Unmetered Bandwidth</li>
-                            <li>Free SSL Certificate </li>
-                            <li>20 Email Subscription</li>
-                            <li>SSD Hosting</li>
-                        </ul>
-
-                        <a href="#!" class="btn btn-outline-dark btn-circled">Purchase Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="pricing-box">
-                        <h3>Premium</h3>
-                        <div class="price-block">
-                             <h2><small>$</small>23<span>monthly</span></h2>
-                        </div>
-
-                        <ul class="price-features list-unstyled">
-                            <li>Unlimited Domain</li>
-                            <li>Unmetered Bandwidth</li>
-                            <li>Free SSL Certificate </li>
-                            <li>20 Email Subscription</li>
-                            <li>SSD Hosting</li>
-                        </ul>
-
-                        <a href="#!" class="btn btn-primary btn-circled">Purchase Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-8 col-md-6">
-                    <div class="pricing-box ">
-                        <h3>Business</h3>
-                        <div class="price-block">
-                             <h2><small>$</small>33<span>monthly</span></h2>
-                        </div>
-
-                        <ul class="price-features list-unstyled">
-                            <li>Unlimited Domain</li>
-                            <li>Unmetered Bandwidth</li>
-                            <li>Free SSL Certificate </li>
-                            <li>20 Email Subscription</li>
-                            <li>SSD Hosting</li>
-                        </ul>
-
-                        <a href="#!" class="btn btn-outline-dark btn-circled">Purchase Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<section class="section" id="projects-wrap">
+<section class="section" id="projects-wrap" >
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -527,7 +387,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <p class="lead text-white">We are providing best service since 1990 to present , committed to best service delivery.Nullam metus enim, placerat in lacus vel, porttitor egestas libero. Etiam ex risus, feugiat eget accumsan eu, sagittis eu urna. In eget ultrices metus. Nunc accumsan </p>
+                    <p class="lead text-white">At our consultancy, we're proud to have a team of exceptional software engineers who possess the expertise and skills necessary to take your business to new heights. Our engineers are handpicked for their proven track record of success and extensive knowledge of the latest technologies. They're fully devoted to driving your business forward and delivering outstanding results. </p>
                 </div>
             </div>
         </div>
@@ -772,134 +632,7 @@ const Home = () => {
         </div>
     </section>
 
- <footer class="section " id="footer">
-   <div class="overlay footer-overlay"></div>
-   {/*Content */}
-   <div class="container">
-     <div class="row justify-content-start">
-       <div class="col-lg-4 col-sm-12">
-         <div class="footer-widget">
-           {/* Brand */}
-           <a href="index.html" class="footer-brand text-white">
-             Rappo
-           </a>
-           <p>Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum
-             dolor sit amet, consectetur adipisicing elit.</p>
-         </div>
-       </div>
-
-       <div class="col-lg-3 ml-lg-auto col-sm-12">
-         <div class="footer-widget">
-           <h3>Account</h3>
-           {/* Links */}
-           <ul class="footer-links ">
-             <li>
-               <a href="#!">
-                 Terms and conditions
-               </a>
-             </li>
-             <li>
-               <a href="#!">
-                 Privacy policy
-               </a>
-             </li>
-             <li>
-               <a href="#!">
-                 Affiliate services
-               </a>
-             </li>
-             <li>
-               <a href="#!">
-                 Help and support
-               </a>
-             </li>
-             <li>
-               <a href="#!">
-                 Frequently Asked Question
-               </a>
-             </li>
-           </ul>
-         </div>
-       </div>
-
-
-       <div class="col-lg-2 col-sm-6">
-         <div class="footer-widget">
-           <h3>About</h3>
-           {/* Links */}
-           <ul class="footer-links">
-            <li>
-              <a href="about.html">
-                About Us
-              </a>
-            </li>
-             <li>
-               <a href="service.html">
-                 Services
-               </a>
-             </li>
-             <li>
-               <a href="pricing.html">
-                 Pricing
-               </a>
-             </li>
-             <li>
-               <a href="project.html">
-                Recent Projects
-               </a>
-             </li>
-
-             <li>
-               <a href="contact.html">
-                 Contact
-               </a>
-             </li>
-           </ul>
-         </div>
-       </div>
-
-       <div class="col-lg-2 col-sm-6">
-         <div class="footer-widget">
-           <h3>Socials</h3>
-           {/* Links */}
-           <ul class="list-unstyled footer-links">
-             <li><a href="https://www.facebook.com/themefisher"><i class="fab fa-facebook-f"></i>Facebook</a></li>
-             <li>
-               <a href="https://www.twitter.com/themefisher"><i class="fab fa-twitter"></i>Twitter
-               </a></li>
-             <li><a href="https://www.pinterest.com/themefisher/"><i class="fab fa-pinterest-p"></i>Pinterest
-               </a></li>
-             <li><a href="https://themefisher.com/"><i class="fab fa-linkedin"></i>linkedin
-               </a></li>
-             <li><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA"><i class="fab fa-youtube"></i>YouTube
-               </a></li>
-           </ul>
-         </div>
-       </div>
-     </div> {/* / .row */}
-
-
-     <div class="row text-right pt-5">
-       <div class="col-lg-12">
-         <div class="overflow-hidden">
-           {/* Copyright */}
-          <p class="footer-copy">
-            Copyright &copy; <script>var CurrentYear = new Date().getFullYear()
-            document.write(CurrentYear)
-          </script>. Designed &amp; Developed by <a class="current-year" href="https://themefisher.com/">Themefisher</a>
-          </p>
-         </div>
-       </div>
-     </div> {/* / .row */}
-   </div> {/* / .container */}
- </footer>
-
-
- {/*  Page Scroll to Top  */}
-
- <a id="scroll-to-top" class="scroll-to-top js-scroll-trigger" href="#top-header">
-   <i class="fa fa-angle-up"></i>
- </a>
+ <Footer/>
 
   {/* 
   Essential Scripts
