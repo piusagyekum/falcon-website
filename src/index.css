@@ -17,3 +17,19 @@ code {
 a{
    text-decoration: none !important;
 }
+
+/* ========================ANNIMATIONS===================================== */
+@keyframes slideUp {
+  from{
+    transform:translateY(100px);
+  }
+
+  to{
+    transform: translateY(0px);
+  }
+  
+}
+
+.animate-up{
+  animation: slideUp 2s linear 2s;
+}

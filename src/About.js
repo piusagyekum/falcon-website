@@ -136,8 +136,8 @@ const About = () => {
       </section>
 
 
-
-      <section className="section" id="section-testimonial">
+                          {/* TESTIMONIAL */}
+      {/* <section className="section" id="section-testimonial">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-4 col-sm-12 col-md-12">
@@ -183,25 +183,25 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="section" id="blog">
+      {/* <section className="section" id="blog">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-8 col-lg-6 text-center">
               <div className="section-heading">
-                {/* Heading */}
+                {/* Heading 
                 <h2 className="section-title">
                   Read our latest news
                 </h2>
 
-                {/* Subheading */}
+                {/* Subheading *
                 <p>
                   Our duty towards you is to share our experience we're reaching in our work path with you.
                 </p>
               </div>
             </div>
-          </div> {/* / .row */}
+          </div> {/* / .row *
 
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6">
@@ -260,7 +260,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
     </div>
   );

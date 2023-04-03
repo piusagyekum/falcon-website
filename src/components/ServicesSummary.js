@@ -31,9 +31,7 @@ const ServicesSummary = () => {
                     <div class="web-service-block">
                         <i class="ti-desktop"></i>
                         <h3>Mobile Application Development</h3>
-                        <p>Expert in the development of Mobile Apps and USSD for Organizations. We bring your business close to Customers.
-
-</p>
+                        <p>Expert in the development of Mobile Apps and USSD for Organizations. We bring your business close to Customers</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
@@ -41,7 +39,7 @@ const ServicesSummary = () => {
                         <i class="ti-announcement"></i>
                         <h3>Custom Enterprise Software Soluton
                         </h3>
-                        <p>With our enterprise software, we develop custom solutions to speed up your workflow processes.
+                        <p>With our enterprise software, we develop custom solutions to speed up your workflow processes
                         </p>
                     </div>
                 </div>

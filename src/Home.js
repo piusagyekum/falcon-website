@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import { Link } from 'react-router-dom';
-import Footer from './components/Footer';
 import ServicesSummary from './components/ServicesSummary';
 
 
@@ -142,7 +141,7 @@ const Home = () => {
 
             {/* HERO
     ================================================== */}
-            <section className="banner-area py-7">
+            <section className="banner-area py-7 animate-up">
                 {/* Content */}
                 <div className="container">
                     <div className="row  align-items-center">
@@ -193,8 +192,8 @@ const Home = () => {
 
                         <div className="col-lg-6 pl-4">
                             <div className="service-content">
-                                <h1>Get a better deal and start saving money today</h1>
-                                <p>We compare hundreds of leading products and plans across many categories to bring you the best value for money.</p>
+                                <h1>Looking For The Best Software Solutions And Consulting?</h1>
+                                <p>Have an amazing idea? We would be delighted to hear from you. Please reach out to us to discuss your needs and how we can assist you.</p>
                             </div>
                         </div>
                     </div>
@@ -216,8 +215,8 @@ const Home = () => {
                                                             <i className="ti-reload"></i>
                                                         </div>
                                                         <div className="service-inner-content media-body">
-                                                            <h4>Backup System</h4>
-                                                            <p>Our team are experts in matching you with the right provider.</p>
+                                                            <h4>CUSTOM SOFTWARE DEVELOPMENT</h4>
+                                                            <p>We develop software solutions that are tailored to your specific needs.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -227,8 +226,8 @@ const Home = () => {
                                                             <i className="ti-cloud"></i>
                                                         </div>
                                                         <div className="service-inner-content media-body">
-                                                            <h4>Cloud Hosting</h4>
-                                                            <p>Our team are experts in matching you with the right provider.</p>
+                                                            <h4>TECH SUPPORT SERVICES</h4>
+                                                            <p>We provide expert technical assistance and optimize the performance and reliability of your digital systems.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -245,8 +244,8 @@ const Home = () => {
                                                             <i className="ti-world"></i>
                                                         </div>
                                                         <div className="service-inner-content media-body">
-                                                            <h4>Web hosting</h4>
-                                                            <p>Our team are experts in matching you with the right provider.</p>
+                                                            <h4>MOBILE APPLICATION DEVELOPMENT</h4>
+                                                            <p>We create responsive and user-friendly digital solutions</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -256,8 +255,8 @@ const Home = () => {
                                                             <i className="ti-server"></i>
                                                         </div>
                                                         <div className="service-inner-content media-body">
-                                                            <h4>Office Cloud</h4>
-                                                            <p>Our team are experts in matching you with the right provider.</p>
+                                                            <h4>CYBERSECURITY CONSULTING</h4>
+                                                            <p>We ensure the confidentiality, integrity, and availability of your assets</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -300,24 +299,24 @@ const Home = () => {
                             <div className="process-block">
                                 <img src="images/process/process-1.jpg" alt="" className="img-fluid" />
 
-                                <h3>Project Research</h3>
-                                <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                                <h3>Requirement Analysis</h3>
+                                <p>We review the Customer proposition, validate the projects possibility, and collect data as part of the feasibility study</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6 col-md-6">
                             <div className="process-block">
                                 <img src="images/process/process-2.jpg" alt="" className="img-fluid" />
 
-                                <h3>Project demostration</h3>
-                                <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                                <h3>Resource Planning</h3>
+                                <p>The development of Customer Software architecture will require several experts in the field of software development</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6 col-md-6">
                             <div className="process-block">
                                 <img src="images/process/process-3.jpg" alt="" className="img-fluid" />
 
-                                <h3>Development & delivery</h3>
-                                <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                                <h3>Design and Prototyping</h3>
+                                <p>We start with a prototype to align with specifications, remove design drawbacks, make changes based on customer requirements.</p>
                             </div>
                         </div>
                     </div>
@@ -328,7 +327,7 @@ const Home = () => {
         <ServicesSummary/>
            
 
-            <section className="section" id="projects-wrap">
+            {/* <section className="section" id="projects-wrap">
                 <div className="overlay"></div>
                 <div className="container">
                     <div className="row">
@@ -342,9 +341,9 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-            <section id="projects" className="section-bottom">
+            {/* <section id="projects" className="section-bottom">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-5">
@@ -385,203 +384,17 @@ const Home = () => {
                         <div className="col-lg-4 col-md-12 col-sm-12 ">
                             <div className="project-content-block">
                                 <h4>Do you know who we are?</h4>
-                                <h2>More than just service your products...</h2>
-                                <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and we will give you a complete account of the system.</p>
+                                <h2>More than just a service...</h2>
+                                <p>Falcon Technologies is a dynamic and inventive software development firm dedicated to delivering exceptional web and app development solutions and services, providing clients with unparalleled user experiences.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-            <section className="section" id="section-testimonial">
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-4 col-sm-12 col-md-12">
-                            <div className="section-heading testimonial-heading">
-                                <h1>What they say <br />about us</h1>
-                                <p>Numquam doloribus impedit at consectetur molestiae tempora ratione possimus in veniam aperiam, eum consequuntur, unde. Earum ullam molestiae suscipit saepe sunt recusandae.</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-8 col-sm-12 col-md-12">
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <div className="test-inner ">
-                                        <div className="test-author-thumb d-flex">
-                                            <img src="images/client/test-1.jpg" alt="Testimonial author" className="img-fluid" />
-                                            <div className="test-author-info">
-                                                <h4>Will Barrow</h4>
-                                                <h6>Sunrise Paradise Hotel</h6>
-                                            </div>
-                                        </div>
+           
 
-                                        Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                        <i className="fa fa-quote-right"></i>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div className="test-inner ">
-                                        <div className="test-author-thumb d-flex">
-                                            <img src="images/client/test-2.jpg" alt="Testimonial author" className="img-fluid" />
-                                            <div className="test-author-info">
-                                                <h4>Will Barrow</h4>
-                                                <h6>Sunrise Paradise Hotel</h6>
-                                            </div>
-                                        </div>
-
-                                        Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                        <i className="fa fa-quote-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <div className="test-inner ">
-                                        <div className="test-author-thumb d-flex">
-                                            <img src="images/client/test-3.jpg" alt="Testimonial author" className="img-fluid" />
-                                            <div className="test-author-info">
-                                                <h4>Will Barrow</h4>
-                                                <h6>Sunrise Paradise Hotel</h6>
-                                            </div>
-                                        </div>
-
-                                        Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                        <i className="fa fa-quote-right"></i>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div className="test-inner ">
-                                        <div className="test-author-thumb d-flex">
-                                            <img src="images/client/test-4.jpg" alt="Testimonial author" className="img-fluid" />
-                                            <div className="test-author-info">
-                                                <h4>Will Barrow</h4>
-                                                <h6>Sunrise Paradise Hotel</h6>
-                                            </div>
-                                        </div>
-
-                                        Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                        <i className="fa fa-quote-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <div className="test-inner">
-                                        <div className="test-author-thumb d-flex">
-                                            <img src="images/client/test-5.jpg" alt="Testimonial author" className="img-fluid" />
-                                            <div className="test-author-info">
-                                                <h4>Will Barrow</h4>
-                                                <h6>Sunrise Paradise Hotel</h6>
-                                            </div>
-                                        </div>
-
-                                        Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                        <i className="fa fa-quote-right"></i>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6">
-                                    <div className="test-inner">
-                                        <div className="test-author-thumb d-flex">
-                                            <img src="images/client/test-6.jpg" alt="Testimonial author" className="img-fluid" />
-                                            <div className="test-author-info">
-                                                <h4>Will Barrow</h4>
-                                                <h6>Sunrise Paradise Hotel</h6>
-                                            </div>
-                                        </div>
-
-                                        Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                        <i className="fa fa-quote-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="section" id="blog">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-md-8 col-lg-6 text-center">
-                            <div className="section-heading">
-                                {/* Heading */}
-                                <h2 className="section-title">
-                                    Read our latest news
-                                </h2>
-
-                                {/* Subheading */}
-                                <p>
-                                    Our duty towards you is to share our experience we're reaching in our work path with you.
-                                </p>
-                            </div>
-                        </div>
-                    </div> {/* / .row */}
-
-                    <div className="row justify-content-center">
-                        <div className="col-lg-4 col-md-6">
-                            <div className="blog-box">
-                                <div className="blog-img-box">
-                                    <img src="images/blog/blog-1.jpg" alt="" className="img-fluid blog-img" />
-                                </div>
-                                <div className="single-blog">
-                                    <div className="blog-content">
-                                        <h6> 17 October 2018</h6>
-                                        <a href="#!">
-                                            <h3 className="card-title">Top tips to speed up your site in a speedy time</h3>
-                                        </a>
-                                        <p>There are many variations of passages Lorem Ipsum available, but majority have ama suffered altratio. the lorem.</p>
-                                        <a href="#!" className="read-more">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="blog-box">
-                                <div className="blog-img-box">
-                                    <img src="images/blog/blog-2.jpg" alt="" className="img-fluid blog-img" />
-                                </div>
-                                <div className="single-blog">
-                                    <div className="blog-content">
-                                        <h6> 17 October 2018</h6>
-                                        <a href="#!">
-                                            <h3 className="card-title">Brand your site value with marketing strategies</h3>
-                                        </a>
-
-                                        <p>There are many variations of passages Lorem Ipsum available, but majority have ama suffered altratio. the lorem.</p>
-                                        <a href="#!" className="read-more">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-8">
-                            <div className="blog-box">
-                                <div className="blog-img-box">
-                                    <img src="images/blog/blog-3.jpg" alt="" className="img-fluid blog-img" />
-                                </div>
-                                <div className="single-blog">
-                                    <div className="blog-content">
-                                        <h6> 17 October 2018</h6>
-                                        <a href="#!">
-                                            <h3 className="card-title">Website Optimization is very essential for site speed</h3>
-                                        </a>
-                                        <p>There are many variations of passages Lorem Ipsum available, but majority have ama suffered altratio. the lorem.</p>
-                                        <a href="#!" className="read-more">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+          
 
          
 
