@@ -46,7 +46,7 @@ const Home = () => {
                                     <h2 className="mb-0">Rappo</h2>
                                 </a> */}
 
-                                <img src="images/logoOnly.png" alt="logo" height="60px"/>
+                                <img src="images/logoOnly.png" alt="logo" height="60px" />
                                 <h3 className="font-weight-500 d-inline-block">Falcon Technologies</h3>
 
                             </div>
@@ -104,7 +104,7 @@ const Home = () => {
                         <div className="collapse navbar-collapse has-dropdown" id="navbarCollapse">
                             {/* Links */}
                             <ul className="navbar-nav ">
-                                <li className="nav-item dropdown">
+                                <li className="nav-item active">
                                     <Link className="nav-link" to="/" id="navbarWelcome" role="button"
                                         aria-haspopup="true" aria-expanded="false">
                                         Home
@@ -324,8 +324,8 @@ const Home = () => {
             </section>
 
 
-        <ServicesSummary/>
-           
+            <ServicesSummary />
+
 
             {/* <section className="section" id="projects-wrap">
                 <div className="overlay"></div>
@@ -392,11 +392,11 @@ const Home = () => {
                 </div>
             </section> */}
 
-           
 
-          
 
-         
+
+
+
 
 
             {/*  Page Scroll to Top  */}
