@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import { Link } from 'react-router-dom';
 import ServicesSummary from './components/ServicesSummary';
+import WorkProcess from './components/WorkProcess';
 
 
 
@@ -275,55 +276,11 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="section" id="process">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-md-8 col-lg-6 text-center">
-                            <div className="section-heading">
-                                {/* Heading */}
-                                <h2 className="section-title">
-                                    Our Working process
-                                </h2>
+            
+{/* =================work process===========================*/}
+            <WorkProcess/>
 
-                                {/* Subheading */}
-                                <p>
-                                    Rappo can be used to create anything from a small marketing page to a sophisticated website.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div> {/* / .row */}
-
-                    <div className="row justify-content-center">
-                        <div className="col-lg-4 col-sm-6 col-md-6">
-                            <div className="process-block">
-                                <img src="images/process/process-1.jpg" alt="" className="img-fluid" />
-
-                                <h3>Requirement Analysis</h3>
-                                <p>We review the Customer proposition, validate the projects possibility, and collect data as part of the feasibility study</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-sm-6 col-md-6">
-                            <div className="process-block">
-                                <img src="images/process/process-2.jpg" alt="" className="img-fluid" />
-
-                                <h3>Resource Planning</h3>
-                                <p>The development of Customer Software architecture will require several experts in the field of software development</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-sm-6 col-md-6">
-                            <div className="process-block">
-                                <img src="images/process/process-3.jpg" alt="" className="img-fluid" />
-
-                                <h3>Design and Prototyping</h3>
-                                <p>We start with a prototype to align with specifications, remove design drawbacks, make changes based on customer requirements.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
+{/* =======SERVICES WRAP================= */}
             <ServicesSummary />
 
 
@@ -391,8 +348,6 @@ const Home = () => {
                     </div>
                 </div>
             </section> */}
-
-
 
 
 

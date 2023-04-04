@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ServicesSummary = () => {
     return ( 
         <section class="section" id="services-2">
@@ -19,19 +21,25 @@ const ServicesSummary = () => {
             </div> {/* / .row */}
 
             <div class="row">
+                
                 <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
-                    <div class="web-service-block">
-                        <i class="ti-light-bulb"></i>
-                        <h3>Cyber Security Consulting</h3>
-                        <p>In era of cyber threats to businesses and organization, your business needs Cyber Security expert to protect you from hackers. Falcon Technologies have what it takes to protect you from Cyber threats.
-                        </p>
-                    </div>
+                   
+                        <div class="web-service-block">
+                            <i class="ti-light-bulb"></i>
+                            <h3>Cyber Security Consulting</h3>
+                            <p>Your business needs Cyber Security expert to protect you from hackers. Falcon Technologies have what it takes to protect you from Cyber threats.
+                            </p>
+                            <Link to="/cybersecurity"><button className="btn btn-outline-secondary">Read more</button></Link>
+                        </div>
+                    
                 </div>
+                
                 <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
                     <div class="web-service-block">
                         <i class="ti-desktop"></i>
                         <h3>Mobile Application Development</h3>
                         <p>Expert in the development of Mobile Apps and USSD for Organizations. We bring your business close to Customers</p>
+                        <Link to="/MobileApp"><button className="btn btn-outline-secondary">Read more</button></Link>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
@@ -41,6 +49,8 @@ const ServicesSummary = () => {
                         </h3>
                         <p>With our enterprise software, we develop custom solutions to speed up your workflow processes
                         </p>
+                        <Link to="/softwaresolution"><button className="btn btn-outline-secondary">Read more</button></Link>
+
                     </div>
                 </div>
 
@@ -49,6 +59,7 @@ const ServicesSummary = () => {
                         <i class="ti-layers-alt"></i>
                         <h3>Tech Support Services</h3>
                         <p>Tech support from Falcon Technologies is cross-platform, ensuring our customer’s issues get sorted at the quickest be it onsite, on phone or email.</p>
+                        <Link to="/support"><button className="btn btn-outline-secondary">Read more</button></Link>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6 ">
@@ -56,13 +67,15 @@ const ServicesSummary = () => {
                         <i class="ti-mobile"></i>
                         <h3>WebSite Development</h3>
                         <p>Website design is a fundamental part of the business, and a strategic tool you can use to attract, educate and inform consumers of your offerings</p>
+                        <Link to="/webitedevelopment"><button className="btn btn-outline-secondary">Read more</button></Link>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6 ">
                     <div class="web-service-block">
                         <i class="ti-settings"></i>
                         <h3>Custom Software Development</h3>
-                        <p>Developing software solutions that are tailored to the specific needs of a business or organization.</p>
+                        <p>Developing software solutions that are tailored to the specific needs of a business or organization<br/><br/></p>
+                        <Link to="/customsoftware"><button className="btn btn-outline-secondary">Read more</button></Link>
                     </div>
                 </div>
             </div>
