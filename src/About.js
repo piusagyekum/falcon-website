@@ -44,7 +44,7 @@ const About = () => {
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-2 col-md-6">
               <div className="process-block">
-                <img src="images/process/process-1.jpg" alt="" className="img-fluid" />
+                <img src="images/content/secure.jpg" alt="" className="img-fluid" />
 
                 <h3>Secure Solutions</h3>
                 <p>Our priority is protecting your business and ensuring its continuity. We utilize advanced security technologies to mitigate risks and safeguard your assets. Our team of experts provides customized solutions that are tailored to your specific needs, ensuring maximum protection and peace of mind. Trust us to secure your business, so you can focus on what matters most - growing and expanding it.</p>
@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="process-block">
-                <img src="images/process/process-2.jpg" alt="" className="img-fluid" />
+                <img src="images/content/empower.jpg" alt="" className=""  width="100%" height="275px"/>
 
                 <h3>Empower your Brand</h3>
                 <p></p>We help brands empower themselves by creating a compelling purpose that resonates with people's lives. Using our unique creative approach and innovative technologies, we assist brands in communicating, converting, and achieving their global objectives. Our solutions are sustainable and measurable, ensuring long-term success.
@@ -77,7 +77,7 @@ const About = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="section-heading">
-                <h1 className="text-white">WHO ARE WE?</h1>
+                <h1 className="text-white">Who are we?</h1>
               </div>
             </div>
             <div className="col-lg-6">

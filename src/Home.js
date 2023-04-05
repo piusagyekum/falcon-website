@@ -169,7 +169,7 @@ const Home = () => {
 
                         <div className="col-lg-5 d-none d-lg-block">
                             <div className="banner-img-block">
-                                <img src="images/banner-img-5.png" alt="banner-img" className="img-fluid" />
+                                <img src="images/content/laptop-lady.jpg" alt="banner-img" className="img-fluid" />
                             </div>
                         </div>
                     </div> {/* / .row */}
@@ -187,7 +187,7 @@ const Home = () => {
                     <div className="row ">
                         <div className="col-lg-4">
                             <div className="service-img">
-                                <img src="images/blog-lg.jpg" alt="" className="img-fluid" />
+                                <img src="images/content/matt-reiter.jpg" alt="" className="img-fluid" />
                             </div>
                         </div>
 
