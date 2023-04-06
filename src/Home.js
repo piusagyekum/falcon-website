@@ -59,7 +59,7 @@ const Home = () => {
                                     <i className="ti-mobile"></i>
                                 </div>
                                 <div className="info-block">
-                                    <h5 className="font-weight-500">+233(0)263012532</h5>
+                                    <h5 className="font-weight-500">+233(0)508985257</h5>
                                     <p>Call</p>
                                 </div>
                             </div>
@@ -142,7 +142,7 @@ const Home = () => {
 
             {/* HERO
     ================================================== */}
-            <section className="banner-area py-7 animate-up">
+            <section className="banner-area py-7">
                 {/* Content */}
                 <div className="container">
                     <div className="row  align-items-center">

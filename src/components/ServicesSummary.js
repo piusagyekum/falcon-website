@@ -67,7 +67,7 @@ const ServicesSummary = () => {
                         <i class="ti-mobile"></i>
                         <h3>WebSite Development</h3>
                         <p>Website design is a fundamental part of the business, and a strategic tool you can use to attract, educate and inform consumers of your offerings</p>
-                        <Link to="/webitedevelopment"><button className="btn btn-outline-secondary">Read more</button></Link>
+                        <Link to="/websitedevelopment"><button className="btn btn-outline-secondary">Read more</button></Link>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6 ">

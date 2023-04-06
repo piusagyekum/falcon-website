@@ -31,7 +31,7 @@ function App() {
           <Route path="/MobileApp" element={<MobileApp/>}></Route>
           <Route path="/softwaresolution" element={<CustomEnterprise/>}></Route>
           <Route path="/support" element={<Support/>}></Route>
-          <Route path="/webitedevelopment" element={<WebsiteDev/>}></Route>
+          <Route path="/websitedevelopment" element={<WebsiteDev/>}></Route>
           <Route path="/customsoftware" element={<CustomSoftware/>}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Route>

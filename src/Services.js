@@ -1,6 +1,4 @@
 import ServicesSummary from "./components/ServicesSummary";
-import { Link } from "react-router-dom"
-import Navbar from "./components/Navbar";
 import WorkProcess from "./components/WorkProcess";
 
 const Services = () => {
@@ -16,7 +14,7 @@ const Services = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9 col-md-12 col-12 text-center">
               <div className="page-banner-content">
-                <h1 className="display-4 font-weight-bold">Web & Cloud services</h1>
+                <h1 className="display-4 font-weight-bold">Our services</h1>
                 <p>We'd love to talk about how we can help you.</p>
               </div>
             </div>

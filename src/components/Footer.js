@@ -24,24 +24,24 @@ const Footer = () => {
            {/* Links */}
            <ul className="footer-links ">
              <li>
-               <a href="#!">
+               <a href="/cybersecurity">
                Cyber Security Consulting               </a>
              </li>
              <li>
-               <a href="#!">
+               <a href="/mobileapp">
                Mobile Application Development               </a>
              </li>
              <li>
-               <a href="#!">
+               <a href="/softwaresolution">
                Custom Enterprise Software Soluton
                </a>
              </li>
              <li>
-               <a href="#!">
+               <a href="/support">
                Tech Support Services               </a>
              </li>
              <li>
-               <a href="#!">
+               <a href="/websitedevelopment">
                WebSite Development               </a>
              </li>
            </ul>
@@ -51,27 +51,27 @@ const Footer = () => {
 
        <div className="col-lg-2 col-sm-6">
          <div className="footer-widget">
-           <h3>About</h3>
+           <h3>Quicklinks</h3>
            {/* Links */}
            <ul className="footer-links">
             <li>
-              <Link href="/About">
+              <Link to="/About">
                 About Us
               </Link>
             </li>
              <li>
-               <Link href="/Services">
+               <Link to="/Services">
                  Services
                </Link>
              </li>
              <li>
-               <Link href="/Projects">
+               <Link to="/Projects">
                 Recent Projects
                </Link>
              </li>
 
              <li>
-               <Link href="/Contact">
+               <Link to="/Contact">
                  Contact
                </Link>
              </li>
@@ -87,7 +87,7 @@ const Footer = () => {
              
              <li><a href="https://www.linkedin.com/company/93126965/admin/"><i className="fab fa-linkedin"></i>linkedin
                </a></li>
-             <li><a href="https://www.instagram.com/falcontechgh/"><i className="fab fa-instagram"></i>YouTube
+             <li><a href="https://www.instagram.com/falcontechgh/"><i className="fab fa-instagram"></i>Instagram
                </a></li>
            </ul>
          </div>
