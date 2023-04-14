@@ -8,7 +8,7 @@ const Layout = () => {
 
     return (
         <div id="top-header">
-            {location?.pathname !== '/' && <Header />}
+            <Header />
             <Outlet />
             <Footer />
         </div>

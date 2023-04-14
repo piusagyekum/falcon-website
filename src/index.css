@@ -38,3 +38,26 @@ a{
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
+
+.item{
+  padding-top: 20px;
+  height:150px;
+  border-bottom: 7px solid black;
+  border-radius: 5px;
+  display:flex;
+  flex-direction: column;
+  background-color:#E7E7E7;
+}
+
+.item1{
+  height:350px;  
+  display:flex;
+  flex-direction: column;
+}
+
+.read{
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  padding:0px 10px;
+}

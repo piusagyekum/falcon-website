@@ -14,6 +14,7 @@ import CustomEnterprise from './CustomEnterprise';
 import Support from './Support';
 import WebsiteDev from './WebsiteDev';
 import CustomSoftware from './CustomSoftware';
+import WhatWeDo from './WhatWeDo';
 
 
 
@@ -23,7 +24,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="" element={<Layout />}>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/" element={<Home/>}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/services" element={<Services/>}></Route>
@@ -34,6 +35,7 @@ function App() {
           <Route path="/websitedevelopment" element={<WebsiteDev/>}></Route>
           <Route path="/customsoftware" element={<CustomSoftware/>}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/what-we-do" element={<WhatWeDo />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
