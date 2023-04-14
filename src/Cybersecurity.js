@@ -24,7 +24,7 @@ const Cyber = () => {
                 <div className="row justify-content-around">
                     <div className="col-12 col-lg-5">
                         <div >
-                            <img src="images/cyber1.jpg" alt="cyber" className="img-fluid"/>
+                            <img src="images/content/cyber1.jpg" alt="cyber" className="img-fluid"/>
                             
                         </div>
                     </div>
@@ -45,7 +45,7 @@ const Cyber = () => {
                     </div>
                     <div className="col-12 col-lg-5">
                         <div>
-                        <img src="images/cyber2.jpg" alt="cyber" className="img-fluid"/>
+                        <img src="images/content/cyber2.jpg" alt="cyber" className="img-fluid"/>
                             
                         </div>
                     </div>
