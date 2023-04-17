@@ -18,21 +18,9 @@ a{
    text-decoration: none !important;
 }
 
-/* ========================ANNIMATIONS===================================== */
-@keyframes slideUp {
-  from{
-    transform:translateY(100px);
-  }
+/* animations */
 
-  to{
-    transform: translateY(0px);
-  }
-  
-}
 
-.animate-up{
-  animation: slideUp 2s linear 2s;
-}
 
 .navbar.fixed-top{
   padding-top: 0px !important;
@@ -51,8 +39,8 @@ a{
 
 .item1{
   height:350px;  
-  display:flex;
-  flex-direction: column;
+  
+  box-shadow:0px 0px 30px black;
 }
 
 .read{
@@ -60,4 +48,29 @@ a{
   color: white;
   border-radius: 25px;
   padding:0px 10px;
+}
+
+.read:hover{
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  font-weight: 900;
+  padding:0px 10px;
+}
+
+.invRead{
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  padding:0px 10px;
+  position:absolute;
+  bottom:20px;
+  
+  left:calc(50% - 55px)
+}
+
+
+
+.box-shadow{
+  box-shadow: 0px opx 10px black;
 }

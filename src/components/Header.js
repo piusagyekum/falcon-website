@@ -15,9 +15,10 @@ const Header = () => {
             {/* NAVBAR
     ================================================= */}
             <nav className="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
-                <div className="container">
+                <div className="container py-3">
                     <Link className="navbar-brand" to="/">
-                        <img src="images/invertedLogo.png" alt="logo" height="150px" />
+                        <img src="images/invLogoOnly.png" alt="logo" height="60px" />
+                        <div className="d-inline-block">FALCON TECHNOLOGIES</div>
                     </Link>
                     {/* Toggler */}
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -32,29 +33,29 @@ const Header = () => {
                             <li className={`nav-item ${location?.pathname === '/' ? 'active' : ''}`}>
                                 <Link className="nav-link " to="/" id="navbarWelcome" role="button"
                                     aria-haspopup="true" aria-expanded="false">
-                                    Home
+                                    WHAT WE DO
                                 </Link>
                             </li>
                             <li className={`nav-item ${location?.pathname === '/about' ? 'active' : ''}`}>
                                 <Link to="/about" className="nav-link js-scroll-trigger">
-                                    About
+                                    About US
                                 </Link>
                             </li>
-                            <li className={`nav-item ${location?.pathname === '/services' ? 'active' : ''}`}>
+                            {/* <li className={`nav-item ${location?.pathname === '/services' ? 'active' : ''}`}>
                                 <Link to="/services" className="nav-link js-scroll-trigger">
                                     Services
                                 </Link>
-                            </li>
+                            </li> */}
 
                             <li className={`nav-item ${location?.pathname === '/projects' ? 'active' : ''}`}>
                                 <Link to="/projects" className="nav-link js-scroll-trigger">
-                                    Projects
+                                    CASES AND CLIENTS
                                 </Link>
                             </li>
 
                             <li className={`nav-item ${location?.pathname === '/contact' ? 'active' : ''}`}>
                                 <Link to="/contact" className="nav-link">
-                                    Contact
+                                    Contact us
                                 </Link>
                             </li>
                         </ul>

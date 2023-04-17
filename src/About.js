@@ -1,12 +1,12 @@
 const About = () => {
   return (
-    <div id="top-header">
+    <div id="top-header" className="">
 
       {/* HERO
     ================================================== */}
-      <section className="page-banner-area page-about">
+      {/* <section className="page-banner-area page-about">
         <div className="overlay"></div>
-        {/* Content */}
+        
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9 col-md-12 col-12 text-center">
@@ -15,30 +15,31 @@ const About = () => {
                 <p>We'd love to talk about how we can help you.</p>
               </div>
             </div>
-          </div> {/* / .row */}
-        </div> {/* / .container */}
-      </section>
+          </div>
+        </div>
+      </section> */}
 
 
 
-      <section className="section" id="process">
+      {/* <section className="section" id="process">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-8 col-lg-6 text-center">
               <div className="section-heading">
-                {/* Heading */}
+           
                 <h2 className="section-title">
                   Why Us?
                 </h2>
 
-                {/* Subheading */}
+                
                 <p>At our consultancy, we're proud to have a team of exceptional software engineers who possess the expertise and skills necessary to take your business to new heights. Our engineers are handpicked for their proven track record of success and extensive knowledge of the latest technologies. They're fully devoted to driving your business forward and delivering outstanding results.                </p>
 
               </div>
             </div>
-          </div> {/* / .row */}
+          </div> */}
+           {/* / .row */}
 
-          <div className="row justify-content-around">
+          {/* <div className="row justify-content-around">
             <div className="col-lg-5 col-sm-12 col-md-12">
               <div className="process-block">
                 <img src="images/content/secure-3.jpg" alt="" className="" width="100%" height="275px" />
@@ -54,7 +55,7 @@ const About = () => {
                 <h3>Empower your Brand</h3>
                 <p></p>We help brands empower themselves by creating a compelling purpose that resonates with people's lives. Using our unique creative approach and innovative technologies, we assist brands in communicating, converting, and achieving their global objectives. Our solutions are sustainable and measurable, ensuring long-term success.
               </div>
-            </div>
+            </div> */}
             {/* <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="process-block">
                 <img src="images/process/process-3.jpg" alt="" className="img-fluid" />
@@ -63,12 +64,12 @@ const About = () => {
                 <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
               </div>
             </div> */}
-          </div>
+          {/* </div>
         </div>
-      </section>
+      </section> */}
 
 
-      <section className="section" id="projects-wrap">
+      {/* <section className="section" id="projects-wrap">
         <div className="overlay"></div>
         <div className="container">
           <div className="row">
@@ -89,21 +90,16 @@ const About = () => {
           <div className="row justify-content-center">
             <div className="col-md-8 col-lg-6 text-center">
               <div className="section-heading">
-                {/* Heading */}
+                
                 <h2 className="section-title">
                   Meet Our Team
                 </h2>
 
-                {/* Subheading */}
-                {/* <p>
-                            Rappo can be used to create anything from a small marketing page to a sophisticated website.
-                        </p> */}
-
-              </div>
+                  </div>
             </div>
           </div> {/* / .row */}
 
-          <div className="row justify-content-center">
+          {/* <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="process-block">
                 <img src="images/process/process-1.jpg" alt="" className="img-fluid" />
@@ -130,7 +126,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */} 
 
 
                           {/* TESTIMONIAL */}
@@ -258,6 +254,112 @@ const About = () => {
           </div>
         </div>
       </section> */}
+
+
+
+
+
+
+      {/* =====Picture and text==== */}
+
+{/* ======who we are==== */}
+      <section className="px-5">
+        <h2 className="section-title text-center">Who We Are</h2>
+        <div >         
+              Falcon Technologies is an innovative and creative software development company in the market to bring the best of experience in Web and app development. Our mission is to bridge the gap between Organizations and Customers closer together by developing multi-functional web site ,USSD services and mobile apps (Android and IOS) for any organization whose business strategy is to bring their services closer to customers. This is what Falcon technology is best at . We have the best in the market expertise who understands end to end development of all applications and to bring your services closer to Customers in the comfort of their homes and offices. We specialized in the development of Fintech Solutions in the cloud for businesses and we deploy our solutions to client onsite IT infrastructure.
+        </div>
+      </section>
+
+      {/* ===what we offer===== */}
+      <section className="" style={{paddingTop:"50px", backgroundImage:"url(images/content/black-background.jpg)" }}>
+        <div style={{width:"90%",margin:"auto"}} className="bg-light pb-3">
+          <h2 className="section-title text-center">What We Offer</h2>
+          <div>
+            <h3 className="">Fintech Solutions</h3>
+            <p className="text-secondary">
+            Fintech solutions can range from simple mobile banking applications to complex trading algorithms used by investment firms.
+            </p>
+          </div>
+        <div>
+            <h3 className="">Mobile Application Development</h3>
+            <p className="text-secondary">
+            Mobile app development involves a variety of different tasks, including designing user interfaces, developing application features and functionality, testing, debugging, and publishing the app to the appropriate app store for distribution.
+            </p>
+          </div>
+        <div>
+            <h3 className="">USSD Services</h3>
+            <p className="text-secondary">
+            USSD services provide a way for users to interact with mobile network operators by sending short codes or messages that trigger specific actions or responses.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* =========management===================== */}
+      <section className="bg-light">
+      <div className="container mt-5 pt-5">
+      <div className="row justify-content-center">
+                        <div className="col-md-8 col-lg-6 text-center">
+                            <div className="section-heading">
+                                {/* Heading */}
+                                <h2 className="section-title">
+                                    Management
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+        <div className="row">
+          <div className="col-6 col-md-3">
+            <div className="d-flex flex-column " style={{height:"300px"}}>
+              {/* image */}
+              <div style={{width:"100%", height:"70%",background:"url(images/people/tagoe.jpeg) no-repeat center/contain"}} className=""></div>
+                {/* title */}
+              <div style={{width:"100%", height:"30%", textAlign:"center"}} className="bg-muted">
+                <h4 className="">Ben Tagoe</h4>
+                <p>CEO</p>
+              </div>
+            </div>
+            
+          </div>
+          <div className="col-6 col-md-3">
+            <div className="d-flex flex-column" style={{height:"300px"}}>
+              {/* image */}
+              <div style={{width:"100%", height:"70%"}} className="bg-warning">image</div>
+              <div style={{width:"100%", height:"30%", textAlign:"center"}} className="bg-muted">
+                <h4 className="">Benjamin Mensah</h4>
+                <p>Project Manager</p>
+              </div>
+            </div>
+            
+          </div>
+          <div className="col-6 col-md-3">
+            <div className="d-flex flex-column" style={{height:"300px"}}>
+              {/* image */}
+              <div style={{width:"100%", height:"70%",background:"url(images/people/james.jpeg) no-repeat center/contain" }} className=""></div>
+              <div style={{width:"100%", height:"30%", textAlign:"center"}} className="bg-muted">
+                <h4 className="">James Amo</h4>
+                <p>Backend Lead</p>
+              </div>
+            </div>
+            
+          </div>
+          <div className="col-6 col-md-3">
+            <div className="d-flex flex-column" style={{height:"300px"}}>
+              {/* image */}
+              <div style={{width:"100%", height:"70%",background:"url(images/people/thomas.jpeg) no-repeat center/contain"}} className=""></div>
+              <div style={{width:"100%", height:"30%", textAlign:"center"}} className="bg-muted">
+                <h4 className="">Thomas Davis</h4>
+                <p>Frontend Lead</p>
+              </div>
+            </div>
+            
+          </div>
+         
+
+        </div>
+
+      </div>
+      </section>
 
     </div>
   );

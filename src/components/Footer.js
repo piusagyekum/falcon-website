@@ -12,7 +12,8 @@ const Footer = () => {
          <div className="footer-widget">
            {/* Brand */}
            <a href="/" className="footer-brand text-white">
-              Falcon Technologies
+           <img src="images/invLogoOnly.png" alt="logo" height="60px" />
+           Falcon Technologies
            </a>
            <p>Unleashing the power of code to transform your vision into reality. Our innovative solutions are engineered to revolutionize your business. From idea to implementation, we make your digital dreams a reality. Let us help you take your business to the next level with our expertise and innovation!</p>
          </div>

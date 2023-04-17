@@ -1,27 +1,13 @@
 const WhatWeDo = () => {
     return ( 
-        <div className="bg-black-70">
-          <div className="bg-black">
-          <div className="container py-5">
-            <div className="row">
-                    <div className="col-10 col-md-6">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                    <img src="images/content/cyber1.jpg" class="d-block w-100" alt="..."/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src="images/content/cyber2.jpg" class="d-block w-100" alt="..."/>
-                    </div>                   
-                </div>
+        <div className="">
+          <section className="">
+            {/* navbar background */}
+            <div className="" style={{height:"100px",backgroundColor:"rgba(0, 0, 0, 0.76)"}}></div>
+            <div className="" style={{background:"url(images/banner-2.png) no-repeat scroll left/cover", height:"500px", width:"100%"}}>
+               
             </div>
-                    </div>
-                    <div className="col">
-                    UNLEASHING the power of code to TRANSFORM your vision into REALITY.
-                    </div>
-                </div>
-           </div>
-          </div>
+          </section>
           {/* ==========SERVICES SECTION=========== */}
            <section className="my-5">
            <div className="container ">
@@ -61,7 +47,7 @@ const WhatWeDo = () => {
                     <div className="col-12 col-lg-4">
                         <div className="item">
                             <div style={{width:"100%",height:"70%"}}>
-                            <h3 className="text-center">Tech Support Services</h3>
+                            <h3 className="text-center">USSD Services</h3>
                             </div>
                             <div style={{width:"100%",height:"30%",textAlign:"center"}}>
                                 <button className="read">READ MORE</button>
@@ -73,7 +59,7 @@ const WhatWeDo = () => {
             </div>
            </section>
            {/* ========METHODOLOGY========== */}
-           <section className="my-5">
+           <section className="my-5 py-5 bg-light">
            <div className="container ">
            <div className="row justify-content-center">
                         <div className="col-md-8 col-lg-6 text-center">
@@ -91,25 +77,27 @@ const WhatWeDo = () => {
                             </div>
                         </div>
                     </div> {/* / .row */}
-                <div className="row justify-content-around">
-                    <div className="col-12 col-lg-3">
+                <div className="row justify-content-around g-5 g-md-auto">
+                    <div className="col-10 col-md-6 col-lg-4 col-xxl-3">
                         <div className="item1">
-                            <div style={{
+                            <div className="bg-white" style={{
                                 width:"100%",
                                 height:"40%",
                                 backgroundImage:"url(images/icons/requirement-analysis.png)",
                                 backgroundRepeat:"no-repeat",
                                 backgroundPosition:"center",
+                                position:"relative"
                                 }}></div>
-                            <div style={{width:"100%",height:"60%",textAlign:"center",backgroundColor:"black",color:"white"}}>
-                            <h3>Requirement Analysis</h3>
+                            <div style={{width:"100%",height:"60%",textAlign:"center",backgroundColor:"#202020",color:"white"}}>
+                                <h3 className="text-white">Requirement Analysis</h3>
                                 <p>We review the Customer proposition, validate the projects possibility, and collect data as part of the feasibility study</p>
-                                <button className="read">READ MORE</button>
+                                
+                                <button className="invRead">READ MORE</button>
                             </div>
                             
                         </div>
                     </div>
-                    <div className="col-12 col-lg-3">
+                    <div className="col-10 col-md-6 col-lg-4 col-xxl-3">
                         <div className="item1">
                             <div style={{
                                 width:"100%",
@@ -118,15 +106,16 @@ const WhatWeDo = () => {
                                 backgroundRepeat:"no-repeat",
                                 backgroundPosition:"center",
                                 }}></div>
-                            <div style={{width:"100%",height:"60%",textAlign:"center",backgroundColor:"black",color:"white"}}>
-                            <h3>Resource Planning</h3>
+                            <div style={{width:"100%",height:"60%",textAlign:"center",backgroundColor:"#202020",color:"white",position:"relative"}}>
+                                <h3 className="text-white">Resource Planning</h3>
                                 <p>The development of Customer Software architecture will require several experts in the field of software development</p>
-                                <button className="read">READ MORE</button>
+                                
+                                <button className="invRead">READ MORE</button>
                             </div>
                             
                         </div>
                     </div>
-                    <div className="col-12 col-lg-3">
+                    <div className="col-10 col-md-6 col-lg-4 col-xxl-3">
                         <div className="item1">
                             <div style={{
                                 width:"100%",
@@ -136,9 +125,9 @@ const WhatWeDo = () => {
                                 backgroundPosition:"center",
                                 }}></div>
                             <div style={{width:"100%",height:"60%",textAlign:"center",backgroundColor:"#202020",color:"white"}}>
-                            <h3>Design and Prototyping</h3>
+                                <h3 className="text-white">Design and Prototyping</h3>
                                 <p>We start with a prototype to align with specifications, remove design drawbacks, make changes based on customer requirements.</p>
-                                <button className="read">READ MORE</button>
+                                <button className="invRead">READ MORE</button>
                             </div>
                             
                         </div>

@@ -2,43 +2,17 @@ const Projects = () => {
   return (
     <div id="top-header">
 
-      {/* HERO
-================================================== */}
-      <section className="page-banner-area page-project">
-        <div className="overlay"></div>
-        {/* Content */}
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-9 col-md-12 col-12 text-center">
-              <div className="page-banner-content">
-                <h1 className="display-4 font-weight-bold">Empower your brand</h1>
-                <p>We'd love to talk about how we can help you.</p>
-              </div>
-            </div>
-          </div> {/* / .row */}
-        </div> {/* / .container */}
-      </section>
+    
 
-      {/* <section id="work-wrap" style={{ marginTop: "60px", paddingTop: "40px" }}>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="section-heading">
-                <h1>We deliver 100% quality products to businesses to achieve their ultimate goal.</h1>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <p className="lead">We help brands empower themselves by creating a compelling purpose that resonates with people's lives. Using our unique creative approach and innovative technologies, we assist brands in communicating, converting, and achieving their global objectives. Our solutions are sustainable and measurable, ensuring long-term success.</p>
-            </div>
-          </div>
-        </div>
-      </section> */}
+    
 
-      <section id="work" className="section-bottom mt-5">
+      {/* <section id="work" className="section-bottom mt-5 bg-light">
         <div className="container pt-5">
           <div className="row justify-content-around">
-            <div className="col-lg-4 col-md-6 p-0">
-              <div className="work-block">
+            <div className="col-6 col-md-3">
+              <div className="work-block" style={{
+                height:"50px"
+              }}>
                 <img src="images/keedMobile.png" alt="work-img" className="img-fluid" />
                 <div className="overlay-content-block">
                   <h4>KeedPay Mobile App</h4>
@@ -47,7 +21,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 p-0">
+            <div className="col-6 col-md-3">
               <div className="work-block">
                 <img src="images/keedWeb.png" alt="work-img" className="img-fluid" />
                 <div className="overlay-content-block">
@@ -57,6 +31,16 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+            <div className="col-6 col-md-3 ">
+              <div className="work-block">
+                <img src="images/keedWeb.png" alt="work-img" className="img-fluid" />
+                <div className="overlay-content-block">
+                  <h4>KeedPay USSD</h4>
+                  <p>An enhanced payment gateway system from Keed Digital Limited which allows you to transfer and receive money .</p>
+                  <i className="fa fa-link"></i>
+                </div>
+              </div>
+            </div> */}
             {/* <div className="col-lg-4 col-md-6 p-0">
               <div className="work-block">
                 <img src="images/work/12.jpg" alt="work-img" className="img-fluid" />
@@ -107,11 +91,170 @@ const Projects = () => {
                   <a href="single-project.html"><i className="fa fa-link"></i></a>
                 </div> 
               </div>
-            </div>*/}
+            </div>
+          </div>
+        </div>
+      </section>*/}
+
+      <section className="bg-light py-5">
+        <h2 className="section-title text-center">Our Projects</h2>
+        <div className="container">
+          <div className="row justify-content-around">
+            <div className="col-10 col-md-4">
+              <div className="" style={{
+                height:"350px",
+              }}>
+                {/* project image */}
+                <div className="" style={{
+                 height:"85%",
+                 background:"url(images/projects/keedWeb.png) no-repeat center/contain"
+
+                }}></div>
+                <h3 className=" text-center p-2" style={{
+                    height:"15%",
+                }}>KeedPay Web Application</h3>
+              </div>
+            </div>
+            <div className="col-10 col-md-4">
+              <div className="" style={{
+                height:"350px",
+              }}>
+                {/* project image */}
+                <div className="" style={{
+                 height:"85%",
+                 background:"url(images/projects/keedMobile.png) no-repeat center/contain"
+
+
+                }}></div>
+                <h3 className="text-center p-2" style={{
+                    height:"15%",
+                }}>KeedPay Mobile Application</h3>
+              </div>
+            </div>
+            <div className="col-10 col-md-4">
+              <div className="" style={{
+                height:"350px",
+              }}>
+                {/* project image */}
+                <div className="" style={{
+                 height:"85%",
+                 background:"url(images/projects/keedWeb.png) no-repeat center/contain"
+
+
+                }}></div>
+                {/* project description */}
+                <h3 className="text-center p-2" style={{
+                    height:"15%",
+                }}>KeedPay USSD</h3>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
+     
+      <section className="py-5 my-5">
+        <h2 className="section-title text-center">Testimonials</h2>
+        <div className="container">
+          <div className="row justify-content-around">
+            {/* testimonial carousel */}
+            <div className="col-12 col-md-8 col-lg-8">
+              <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+                <div className="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <div className=" rounded-5 -secondary border-5 border bg-light" style={{height:"300px",position:"relative"}}>
+                      {/* icon */}
+                      <div className="d-none d-lg-block" style={{
+                        position:"absolute",
+                        top:"10px",
+                        left:"20px",
+                        width:"100px",
+                        height:"100px",
+                        background:"url(images/icons/testimonial.png) no-repeat left"
+                      }}></div>
+                      {/* testimonial description */}
+                     <div className=" ms-lg-5 ps-lg-5 p-5" style={{
+                      height:"100%",}}>
+                        <p>"testimonial Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut quia et, neque est perferendis atque, necessitatibus quidem dolorum adipisci dolore unde sint debitis pariatur, dicta odio illo a sed."</p>
+                        <h4>Indrek Pari</h4>
+                        <h5 className="text-muted">Keed Digital</h5>
+
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div className="carousel-item">
+                  <div className="border rounded-5 border-secondary border-5 bg-light" style={{minHeight:"270px",position:"relative"}}>
+                      {/* icon */}
+                      <div className="d-none d-lg-block" style={{
+                        position:"absolute",
+                        top:"10px",
+                        left:"20px",
+                        width:"100px",
+                        height:"100px",
+                        background:"url(images/icons/testimonial.png) no-repeat left"
+                      }}></div>
+                      {/* testimonial description */}
+                     <div className=" ms-lg-5 ps-lg-5 p-5" style={{
+                      height:"100%",}}>
+                        <p>"testimonial Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut quia et, neque est perferendis atque, necessitatibus quidem dolorum adipisci dolore unde sint debitis pariatur, dicta odio illo a sed."</p>
+                        <h4>Indrek Pari</h4>
+                        <h5 className="text-muted">Keed Digital</h5>
+
+                      </div>
+                    </div>
+                   
+                  </div>
+                  <div className="carousel-item">
+                  <div className="border rounded-5 border-secondary border-5 bg-light" style={{height:"300px",position:"relative"}}>
+                      {/* icon */}
+                      <div className="d-none d-lg-block" style={{
+                        position:"absolute",
+                        top:"10px",
+                        left:"20px",
+                        width:"100px",
+                        height:"100px",
+                        background:"url(images/icons/testimonial.png) no-repeat left"
+                      }}></div>
+                      {/* testimonial description */}
+                     <div className=" ms-lg-5 ps-lg-5 p-5" style={{
+                      height:"100%",}}>
+                        <p>"testimonial Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut quia et, neque est perferendis atque, necessitatibus quidem dolorum adipisci dolore unde sint debitis pariatur, dicta odio illo a sed."</p>
+                        <h4>Indrek Pari</h4>
+                        <h5 className="text-muted">Keed Digital</h5>
+
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            {/* testimonial image */}
+            <div className="col-10 col-md-4 col-lg-4" style={{
+              height:"300px",
+              background:"url(images/content/testimonial.png)",
+              backgroundSize:"contain",
+              backgroundRepeat:"no-repeat",
+              backgroundPosition:"center",
+              
+            }}></div>
+          </div>
+        </div>
+      </section>
      
 
       {/*  Page Scroll to Top  */}

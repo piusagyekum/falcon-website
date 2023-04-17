@@ -4,25 +4,12 @@ const Contact = () => {
 
       {/* HERO
 ================================================== */}
-      <section className="page-banner-area page-contact">
-        <div className="overlay"></div>
-        {/* Content */}
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-9 col-md-12 col-12 text-center">
-              <div className="page-banner-content">
-                <h1 className="display-4 font-weight-bold">Got a question?</h1>
-                <p>We'd love to talk about how we can help you.</p>
-              </div>
-            </div>
-          </div> {/* / .row */}
-        </div> {/* / .container */}
-      </section>
+      
 
 
       {/* SECTIONS
     ================================================== */}
-      <section id="contact-info">
+      {/* <section id="contact-info">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6 col-md-6">
@@ -56,21 +43,77 @@ const Contact = () => {
             </div>
           </div>
         </div>
+      </section> */}
+
+      <section className="bg-light py-5">
+        <div className="container">
+        <div className="row">
+                        <div className=" text-center">
+                            <div className="section-heading">
+                                {/* Heading */}
+                                <h2 className="section-title">
+                                    Contact Info
+                                </h2>
+                                <h4>Meet us at a Cyberteq office near you or reach us electronically. Our experts will help you to choose the proper solution for your organization and answer
+all questions related to Cybersecurity, Digital Transformation & Telecommunication. </h4>
+
+                            </div>
+                        </div>
+                    </div>
+          <div className="row justify-content-around">
+            <div className="col-12 col-md-6 col-lg-4">
+              <div className="border-right">
+                <h3><i class="bi bi-pin-map-fill"></i> Office Location</h3>
+                <p className="lead">
+                You can reach us at the following address:
+                </p>
+                <h4 className="">
+                Cyberteq Falcon Ltd, BJ Global Home, E.D Sowah Avenue, East Legon, Accra, Ghana
+                </h4>
+              </div>
+
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <div className="border-right">
+                <h3><i class="bi bi-envelope-open-fill" width="300" height="32"></i> Email Address</h3>
+                <p className="lead">
+                Send us your questions by email and we will reply as soon as possible:</p>
+                <h4 className="">
+                btfalcontechnologies@gmail.com
+                </h4>
+              </div>
+
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <div className="">
+                <h3><i class="bi bi-alarm-fill"></i> Working Hours</h3>
+                <p className="lead">
+                We are doing our best to secure our customers. Working hours:
+                </p>
+                <h4 className="">
+                Mon – Fri: 8 AM – 5 PM Sat – Sun:  Closed.
+                </h4>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
       </section>
 
       <section className="section" id="contact">
         <div className="container">
           <div className="row mb-4">
             <div className="col-md-8 col-lg-6">
-              <h5>Leave a Message</h5>
+            
               {/* Heading */}
               <h2 className="section-title mb-2 ">
-                Tell us about <span className="font-weight-normal">yourself</span>
+                Get In Touch 
               </h2>
 
               {/* Subheading */}
               <p className="mb-5 ">
-                Whether you have questions or you would just like to say hello, contact us.
+              Thank you for your interest in Falcon Technologies. Please provide the following information about your business needs. This information will enable us to route your request to the appropriate person. You should receive a response within two days.
               </p>
 
             </div>
