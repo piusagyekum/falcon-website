@@ -96,8 +96,39 @@ const Projects = () => {
         </div>
       </section>*/}
 
+        {/* navbar background */}
+        <div className="" style={{height:"100px",backgroundColor:"rgba(0, 0, 0, 0.76)"}}></div>
+           
+           {/* =====BANNER and text==== */}
+           <div className="" style={{background:"url(images/banner-2.png) no-repeat scroll left/cover", height:"400px", width:"100%"}}>
+                     {/* Image */}
+                     <div className="container">
+                         <div className="row justify-content-around">
+                             <div className="col-10 col-md-5">
+                                 <div className="d-none d-md-block" style={{
+                                     height:"400px",
+                                     background:"url(images/computer-screen.png) no-repeat scroll center/contain"
+                                 }}></div>
+                                 
+                             </div>
+                             {/* Words */}
+                             <div className="col-10 col-md-5">
+                             <div className="" style={{
+                                     height:"400px",
+                                     background:"url(images/solutions.png) no-repeat scroll center/contain"
+                                 }}></div>
+     
+                             </div>
+     
+                         </div>
+                     </div>
+                    
+                 </div>
+
       <section className="bg-light py-5">
-        <h2 className="section-title text-center">Our Projects</h2>
+        <div className="section-heading">
+          <h2 className="section-title text-center">Our Projects</h2>
+        </div>
         <div className="container">
           <div className="row justify-content-around">
             <div className="col-10 col-md-4">
@@ -154,76 +185,77 @@ const Projects = () => {
 
      
       <section className="py-5 my-5">
-        <h2 className="section-title text-center">Testimonials</h2>
+        <div className="section-heading">
+          <h2 className="section-title text-center">Testimonials</h2>
+        </div>
         <div className="container">
           <div className="row justify-content-around">
             {/* testimonial carousel */}
-            <div className="col-12 col-md-8 col-lg-8">
+            <div className="col-12 col-md-7">
               <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" className="bg-secondary"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" className="bg-secondary"></button>
                 </div>
+                {/* carousel content */}
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <div className=" rounded-5 -secondary border-5 border bg-light" style={{height:"300px",position:"relative"}}>
+                    <div className=" rounded-5   border bg-light d-flex justify-content-end" style={{height:"250px",position:"relative"}}>
                       {/* icon */}
-                      <div className="d-none d-lg-block" style={{
+                      <div className="" style={{
                         position:"absolute",
                         top:"10px",
                         left:"20px",
                         width:"100px",
                         height:"100px",
-                        background:"url(images/icons/testimonial.png) no-repeat left"
+                        background:"url(images/icons/quote.png) no-repeat left"
                       }}></div>
                       {/* testimonial description */}
-                     <div className=" ms-lg-5 ps-lg-5 p-5" style={{
-                      height:"100%",}}>
+                     <div className=" ps-5 py-3 pe-3" style={{
+                      height:"100%", width:"85%",}}>
                         <p>"testimonial Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut quia et, neque est perferendis atque, necessitatibus quidem dolorum adipisci dolore unde sint debitis pariatur, dicta odio illo a sed."</p>
                         <h4>Indrek Pari</h4>
                         <h5 className="text-muted">Keed Digital</h5>
 
                       </div>
-                    </div>
-                    
+                    </div>                    
                   </div>
                   <div className="carousel-item">
-                  <div className="border rounded-5 border-secondary border-5 bg-light" style={{minHeight:"270px",position:"relative"}}>
-                      {/* icon */}
-                      <div className="d-none d-lg-block" style={{
-                        position:"absolute",
-                        top:"10px",
-                        left:"20px",
-                        width:"100px",
-                        height:"100px",
-                        background:"url(images/icons/testimonial.png) no-repeat left"
-                      }}></div>
-                      {/* testimonial description */}
-                     <div className=" ms-lg-5 ps-lg-5 p-5" style={{
-                      height:"100%",}}>
-                        <p>"testimonial Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut quia et, neque est perferendis atque, necessitatibus quidem dolorum adipisci dolore unde sint debitis pariatur, dicta odio illo a sed."</p>
-                        <h4>Indrek Pari</h4>
-                        <h5 className="text-muted">Keed Digital</h5>
+                      <div className=" rounded-5   border bg-light d-flex justify-content-end" style={{height:"250px",position:"relative"}}>
+                          {/* icon */}
+                          <div className="" style={{
+                            position:"absolute",
+                            top:"10px",
+                            left:"20px",
+                            width:"100px",
+                            height:"100px",
+                            background:"url(images/icons/quote.png) no-repeat left"
+                          }}></div>
+                          {/* testimonial description */}
+                        <div className=" ps-5 py-3 pe-3" style={{
+                          height:"100%", width:"85%",}}>
+                            <p>"testimonial Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut quia et, neque est perferendis atque, necessitatibus quidem dolorum adipisci dolore unde sint debitis pariatur, dicta odio illo a sed."</p>
+                            <h4>Indrek Pari</h4>
+                            <h5 className="text-muted">Keed Digital</h5>
 
+                          </div>
                       </div>
-                    </div>
-                   
                   </div>
                   <div className="carousel-item">
-                  <div className="border rounded-5 border-secondary border-5 bg-light" style={{height:"300px",position:"relative"}}>
+                    <div className=" rounded-5   border bg-light d-flex justify-content-end" style={{height:"250px",position:"relative"}}>
                       {/* icon */}
-                      <div className="d-none d-lg-block" style={{
+                      <div className="" style={{
                         position:"absolute",
                         top:"10px",
                         left:"20px",
                         width:"100px",
                         height:"100px",
-                        background:"url(images/icons/testimonial.png) no-repeat left"
+                        background:"url(images/icons/quote.png) no-repeat left"
                       }}></div>
                       {/* testimonial description */}
-                     <div className=" ms-lg-5 ps-lg-5 p-5" style={{
-                      height:"100%",}}>
+                     <div className=" ps-5 py-3 pe-3" style={{
+                      height:"100%", width:"85%",}}>
                         <p>"testimonial Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut quia et, neque est perferendis atque, necessitatibus quidem dolorum adipisci dolore unde sint debitis pariatur, dicta odio illo a sed."</p>
                         <h4>Indrek Pari</h4>
                         <h5 className="text-muted">Keed Digital</h5>
@@ -233,7 +265,7 @@ const Projects = () => {
                     
                   </div>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" style={{color:"red"}}>
                   <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span className="visually-hidden">Previous</span>
                 </button>
@@ -245,11 +277,11 @@ const Projects = () => {
             </div>
             {/* testimonial image */}
             <div className="col-10 col-md-4 col-lg-4" style={{
-              height:"300px",
-              background:"url(images/content/testimonial.png)",
-              backgroundSize:"contain",
+              height:"250px",
+              background:"url(images/collation.png)",
+              backgroundSize:"cover",
               backgroundRepeat:"no-repeat",
-              backgroundPosition:"center",
+              boxShadow:"0px 0px 10px grey",
               
             }}></div>
           </div>

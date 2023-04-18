@@ -36,12 +36,7 @@ const Header = () => {
                                     WHAT WE DO
                                 </Link>
                             </li>
-                            <li className={`nav-item ${location?.pathname === '/about' ? 'active' : ''}`}>
-                                <Link to="/about" className="nav-link js-scroll-trigger">
-                                    About US
-                                </Link>
-                            </li>
-                            {/* <li className={`nav-item ${location?.pathname === '/services' ? 'active' : ''}`}>
+                           {/* <li className={`nav-item ${location?.pathname === '/services' ? 'active' : ''}`}>
                                 <Link to="/services" className="nav-link js-scroll-trigger">
                                     Services
                                 </Link>
@@ -50,6 +45,12 @@ const Header = () => {
                             <li className={`nav-item ${location?.pathname === '/projects' ? 'active' : ''}`}>
                                 <Link to="/projects" className="nav-link js-scroll-trigger">
                                     CASES AND CLIENTS
+                                </Link>
+                            </li>
+
+                            <li className={`nav-item ${location?.pathname === '/about' ? 'active' : ''}`}>
+                                <Link to="/about" className="nav-link js-scroll-trigger">
+                                    About US
                                 </Link>
                             </li>
 

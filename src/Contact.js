@@ -45,6 +45,35 @@ const Contact = () => {
         </div>
       </section> */}
 
+        {/* navbar background */}
+        <div className="" style={{height:"100px",backgroundColor:"rgba(0, 0, 0, 0.76)"}}></div>
+
+        {/* =====BANNER and text==== */}
+        <div className="" style={{background:"url(images/banner-2.png) no-repeat scroll left/cover", height:"400px", width:"100%"}}>
+                  {/* Image */}
+                  <div className="container">
+                      <div className="row justify-content-around">
+                          <div className="col-10 col-md-5">
+                              <div className="d-none d-md-block" style={{
+                                  height:"400px",
+                                  background:"url(images/computer-screen.png) no-repeat scroll center/contain"
+                              }}></div>
+                              
+                          </div>
+                          {/* Words */}
+                          <div className="col-10 col-md-5">
+                          <div className="" style={{
+                                  height:"400px",
+                                  background:"url(images/unleashing.png) no-repeat scroll center/contain"
+                              }}></div>
+
+                          </div>
+
+                      </div>
+                  </div>
+                
+              </div>
+
       <section className="bg-light py-5">
         <div className="container">
         <div className="row">

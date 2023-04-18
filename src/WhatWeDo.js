@@ -4,7 +4,29 @@ const WhatWeDo = () => {
           <section className="">
             {/* navbar background */}
             <div className="" style={{height:"100px",backgroundColor:"rgba(0, 0, 0, 0.76)"}}></div>
-            <div className="" style={{background:"url(images/banner-2.png) no-repeat scroll left/cover", height:"500px", width:"100%"}}>
+            {/* banner */}
+            <div className="" style={{background:"url(images/banner-2.png) no-repeat scroll left/cover", height:"400px", width:"100%"}}>
+                {/* Image */}
+                <div className="container">
+                    <div className="row justify-content-around">
+                        <div className="col-10 col-md-5">
+                            <div className="d-none d-md-block" style={{
+                                height:"400px",
+                                background:"url(images/computer-screen.png) no-repeat scroll center/contain"
+                            }}></div>
+                            
+                        </div>
+                        {/* Words */}
+                        <div className="col-10 col-md-5">
+                        <div className="" style={{
+                                height:"400px",
+                                background:"url(images/unleashing.png) no-repeat scroll center/contain"
+                            }}></div>
+
+                        </div>
+
+                    </div>
+                </div>
                
             </div>
           </section>
@@ -80,7 +102,7 @@ const WhatWeDo = () => {
                 <div className="row justify-content-around g-5 g-md-auto">
                     <div className="col-10 col-md-6 col-lg-4 col-xxl-3">
                         <div className="item1">
-                            <div className="bg-white" style={{
+                            <div className="part1 bg-white" style={{
                                 width:"100%",
                                 height:"40%",
                                 backgroundImage:"url(images/icons/requirement-analysis.png)",
@@ -88,7 +110,7 @@ const WhatWeDo = () => {
                                 backgroundPosition:"center",
                                 position:"relative"
                                 }}></div>
-                            <div style={{width:"100%",height:"60%",textAlign:"center",backgroundColor:"#202020",color:"white"}}>
+                            <div className="part2 p-3" style={{width:"100%",height:"60%",textAlign:"center",backgroundColor:"#202020",color:"white"}}>
                                 <h3 className="text-white">Requirement Analysis</h3>
                                 <p>We review the Customer proposition, validate the projects possibility, and collect data as part of the feasibility study</p>
                                 
@@ -99,14 +121,14 @@ const WhatWeDo = () => {
                     </div>
                     <div className="col-10 col-md-6 col-lg-4 col-xxl-3">
                         <div className="item1">
-                            <div style={{
+                            <div className="part1" style={{
                                 width:"100%",
                                 height:"40%",
                                 backgroundImage:"url(images/icons/resource-planning.png)",
                                 backgroundRepeat:"no-repeat",
                                 backgroundPosition:"center",
                                 }}></div>
-                            <div style={{width:"100%",height:"60%",textAlign:"center",backgroundColor:"#202020",color:"white",position:"relative"}}>
+                            <div className="p-3 part2" style={{width:"100%",height:"60%",textAlign:"center",backgroundColor:"#202020",color:"white",position:"relative"}}>
                                 <h3 className="text-white">Resource Planning</h3>
                                 <p>The development of Customer Software architecture will require several experts in the field of software development</p>
                                 
@@ -117,14 +139,14 @@ const WhatWeDo = () => {
                     </div>
                     <div className="col-10 col-md-6 col-lg-4 col-xxl-3">
                         <div className="item1">
-                            <div style={{
+                            <div className="part1" style={{
                                 width:"100%",
                                 height:"40%",
                                 backgroundImage:"url(images/icons/prototyping.png)",
                                 backgroundRepeat:"no-repeat",
                                 backgroundPosition:"center",
                                 }}></div>
-                            <div style={{width:"100%",height:"60%",textAlign:"center",backgroundColor:"#202020",color:"white"}}>
+                            <div className=" part2 p-3" style={{width:"100%",height:"60%",textAlign:"center",backgroundColor:"#202020",color:"white"}}>
                                 <h3 className="text-white">Design and Prototyping</h3>
                                 <p>We start with a prototype to align with specifications, remove design drawbacks, make changes based on customer requirements.</p>
                                 <button className="invRead">READ MORE</button>

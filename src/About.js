@@ -259,21 +259,52 @@ const About = () => {
 
 
 
+       {/* navbar background */}
+       <div className="" style={{height:"100px",backgroundColor:"rgba(0, 0, 0, 0.76)"}}></div>
+           
+      {/* =====BANNER and text==== */}
+      <div className="" style={{background:"url(images/banner-2.png) no-repeat scroll left/cover", height:"400px", width:"100%"}}>
+                {/* Image */}
+                <div className="container">
+                    <div className="row justify-content-around">
+                        <div className="col-10 col-md-5">
+                            <div className="d-none d-md-block" style={{
+                                height:"400px",
+                                background:"url(images/computer-screen.png) no-repeat scroll center/contain"
+                            }}></div>
+                            
+                        </div>
+                        {/* Words */}
+                        <div className="col-10 col-md-5">
+                        <div className="" style={{
+                                height:"400px",
+                                background:"url(images/unleashing.png) no-repeat scroll center/contain"
+                            }}></div>
 
-      {/* =====Picture and text==== */}
+                        </div>
+
+                    </div>
+                </div>
+               
+            </div>
 
 {/* ======who we are==== */}
-      <section className="px-5">
-        <h2 className="section-title text-center">Who We Are</h2>
+      <section className="p-5 my-5 bg-light">
+        <div className="section-heading">
+            <h2 className="section-title text-center">Who We Are</h2>
+        </div>
         <div >         
               Falcon Technologies is an innovative and creative software development company in the market to bring the best of experience in Web and app development. Our mission is to bridge the gap between Organizations and Customers closer together by developing multi-functional web site ,USSD services and mobile apps (Android and IOS) for any organization whose business strategy is to bring their services closer to customers. This is what Falcon technology is best at . We have the best in the market expertise who understands end to end development of all applications and to bring your services closer to Customers in the comfort of their homes and offices. We specialized in the development of Fintech Solutions in the cloud for businesses and we deploy our solutions to client onsite IT infrastructure.
         </div>
       </section>
 
       {/* ===what we offer===== */}
-      <section className="" style={{paddingTop:"50px", backgroundImage:"url(images/content/black-background.jpg)" }}>
-        <div style={{width:"90%",margin:"auto"}} className="bg-light pb-3">
-          <h2 className="section-title text-center">What We Offer</h2>
+      <section className="my-5 d-flex justify-content-center align-items-center" style={{paddingTop:"50px", minHeight:"500px",backgroundImage:"url(images/content/black-background.jpg)" }}>
+        <div  style={{width:"90%",height:"90%", margin:"5% auto"}} className="bg-light p-5">
+        <div className="section-heading">
+        <h2 className="section-title text-center">What We Offer</h2>
+
+        </div>
           <div>
             <h3 className="">Fintech Solutions</h3>
             <p className="text-secondary">
@@ -302,9 +333,11 @@ const About = () => {
                         <div className="col-md-8 col-lg-6 text-center">
                             <div className="section-heading">
                                 {/* Heading */}
-                                <h2 className="section-title">
-                                    Management
-                                </h2>
+                                <div className="section-heading">
+                                  <h2 className="section-title">
+                                      Management
+                                  </h2>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -315,7 +348,7 @@ const About = () => {
               <div style={{width:"100%", height:"70%",background:"url(images/people/tagoe.jpeg) no-repeat center/contain"}} className=""></div>
                 {/* title */}
               <div style={{width:"100%", height:"30%", textAlign:"center"}} className="bg-muted">
-                <h4 className="">Ben Tagoe</h4>
+                <h4 className="pt-2">Ben Tagoe</h4>
                 <p>CEO</p>
               </div>
             </div>
@@ -326,7 +359,7 @@ const About = () => {
               {/* image */}
               <div style={{width:"100%", height:"70%"}} className="bg-warning">image</div>
               <div style={{width:"100%", height:"30%", textAlign:"center"}} className="bg-muted">
-                <h4 className="">Benjamin Mensah</h4>
+                <h4 className="pt-2">Benjamin Mensah</h4>
                 <p>Project Manager</p>
               </div>
             </div>
@@ -337,7 +370,7 @@ const About = () => {
               {/* image */}
               <div style={{width:"100%", height:"70%",background:"url(images/people/james.jpeg) no-repeat center/contain" }} className=""></div>
               <div style={{width:"100%", height:"30%", textAlign:"center"}} className="bg-muted">
-                <h4 className="">James Amo</h4>
+                <h4 className="pt-2">James Amo</h4>
                 <p>Backend Lead</p>
               </div>
             </div>
@@ -348,7 +381,7 @@ const About = () => {
               {/* image */}
               <div style={{width:"100%", height:"70%",background:"url(images/people/thomas.jpeg) no-repeat center/contain"}} className=""></div>
               <div style={{width:"100%", height:"30%", textAlign:"center"}} className="bg-muted">
-                <h4 className="">Thomas Davis</h4>
+                <h4 className="pt-2">Thomas Davis</h4>
                 <p>Frontend Lead</p>
               </div>
             </div>
